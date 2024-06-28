@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:sesamos_cafe/Pages/Foods_Menus/Snacks.dart';
+import 'package:sesamos_cafe/Pages/Foods_Menus/Toasts.dart';
+import 'package:sesamos_cafe/Pages/Foods_Menus/Wraps.dart';
 import 'package:sesamos_cafe/Pages/Foods_Menus/breakfastWidget.dart';
+import 'package:sesamos_cafe/Pages/Foods_Menus/ekmekArasi.dart';
 
 class Foods extends StatefulWidget {
   const Foods({super.key});
@@ -28,11 +31,16 @@ class _FoodsState extends State<Foods> {
           ),
         ),
       ),
-      body: Column(
-        children: [
-          Breakfast(),
-          Snacks(),
-        ],
+      body: SingleChildScrollView(
+        child: Column(
+          children: [
+            Breakfast(),
+            Snacks(),
+            Toasts(),
+            Breads(),
+            Wraps(),
+          ],
+        ),
       ),
     );
   }

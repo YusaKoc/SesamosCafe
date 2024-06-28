@@ -22,7 +22,7 @@ class _MainPageState extends State<MainPage> {
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
                 ElevatedButton(
-                  child: Text("YEMEKLER", style: TextStyle(fontSize: 22,color: Colors.white,fontWeight: FontWeight.w300),),
+                  child: Text("YEMEKLER", style: TextStyle(fontSize: 22,color: Colors.white,fontWeight: FontWeight.w300,fontFamily: "Georgia",),),
                   style: ElevatedButton.styleFrom(backgroundColor: Colors.orange),
                   onPressed: (){
                     Navigator.push(context, MaterialPageRoute(builder: (context)=>Foods()));
@@ -30,7 +30,7 @@ class _MainPageState extends State<MainPage> {
                   },
                 ),
                 ElevatedButton(
-                  child: Text("İÇECEKLER", style: TextStyle(fontSize: 22,color: Colors.white,fontWeight: FontWeight.w300),),
+                  child: Text("İÇECEKLER", style: TextStyle(fontSize: 22,color: Colors.white,fontWeight: FontWeight.w300,fontFamily: "Georgia",),),
                   style: ElevatedButton.styleFrom(backgroundColor: Colors.orange),
                   onPressed: (){
                   },
@@ -39,7 +39,7 @@ class _MainPageState extends State<MainPage> {
             ),
             SizedBox(height: 50,),
             ElevatedButton(
-              child: Text("NARGİLE ÇEŞİTLERİ", style: TextStyle(fontSize: 22,color: Colors.white,fontWeight: FontWeight.w300),),
+              child: Text("NARGİLE ÇEŞİTLERİ", style: TextStyle(fontSize: 22,color: Colors.white,fontWeight: FontWeight.w300,fontFamily: "Georgia",),),
               style: ElevatedButton.styleFrom(backgroundColor: Colors.orange),
               onPressed: (){
               },

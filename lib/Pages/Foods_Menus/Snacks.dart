@@ -7,6 +7,7 @@ class Snacks extends StatelessWidget {
   Widget build(BuildContext context) {
     return SingleChildScrollView(
       child: Column(
+        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: [
           SizedBox(height: 10,),
           ElevatedButton(
@@ -14,6 +15,7 @@ class Snacks extends StatelessWidget {
             child: Text(
               "APERATİFLER",
               style: TextStyle(
+                fontFamily: "Georgia",
                 fontWeight: FontWeight.w300,
                 fontSize: 25,
                 color: Colors.white,
@@ -34,15 +36,19 @@ class Snacks extends StatelessWidget {
                     elevation: 4,
                     color: Colors.orange,
                     child: Column(
+                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       mainAxisSize: MainAxisSize.min,
                       children: [
                         SizedBox(
                           width: 150,
-                          child: Image.asset("images/kahvalti.webp",fit: BoxFit.contain,),
+                          child: Padding(
+                            padding: const EdgeInsets.all(8.0),
+                            child: Image.asset("images/kahvalti.webp",fit: BoxFit.contain,),
+                          ),
                         ),
                         Text(
                           "SICAK SEPETİ",
-                          style: TextStyle(
+                          style: TextStyle(fontFamily: "Georgia",
                               fontSize: 15,
                               color: Colors.white,
                               fontWeight: FontWeight.bold
@@ -51,7 +57,7 @@ class Snacks extends StatelessWidget {
                         ),
                         Text(
                           "Cips, Soğan Halkası, Sosis, Nugget",
-                          style: TextStyle(
+                          style: TextStyle(fontFamily: "Georgia",
                             fontSize: 10,
                             color: Colors.white,
                           ),
@@ -62,7 +68,7 @@ class Snacks extends StatelessWidget {
                           child: ElevatedButton(
                             style: ElevatedButton.styleFrom(backgroundColor: Colors.white,shadowColor: Colors.orange),
                             onPressed: (){},
-                            child: Text(" ___ ₺",style: TextStyle(color: Colors.orangeAccent,fontWeight:FontWeight.bold ),),
+                            child: Text(" ___ ₺",style: TextStyle(fontFamily: "Georgia",color: Colors.orangeAccent,fontWeight:FontWeight.bold ),),
                           ),
                         )
                       ],
@@ -74,12 +80,13 @@ class Snacks extends StatelessWidget {
                   child: Card(
                     color: Colors.orange,
                     child: Column(
+                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
-                        SizedBox(width: 250,child: Image.asset("images/Logo.png",fit: BoxFit.contain,)),
-                        Text("COMBO SICAK SEPETİ",style: TextStyle(fontSize: 15,color: Colors.white , fontWeight: FontWeight.bold)),
+                        SizedBox(width: 300,child: Image.asset("images/Logo.png",fit: BoxFit.contain,)),
+                        Text("COMBO SICAK SEPETİ",style: TextStyle(fontFamily: "Georgia",fontSize: 15,color: Colors.white , fontWeight: FontWeight.bold)),
                         Text(
                           "Cips, Soğan Halkası, Sosis, Nugget, Sigara Böreği, Patates Kroket",
-                          style: TextStyle(
+                          style: TextStyle(fontFamily: "Georgia",
                             fontSize: 10,
                             color: Colors.white,
                           ),
@@ -90,7 +97,7 @@ class Snacks extends StatelessWidget {
                           child: ElevatedButton(
                             style: ElevatedButton.styleFrom(backgroundColor: Colors.white,shadowColor: Colors.orange),
                             onPressed: (){},
-                            child: Text(" ___ ₺",style: TextStyle(color: Colors.orangeAccent,fontWeight:FontWeight.bold ),),
+                            child: Text(" ___ ₺",style: TextStyle(fontFamily: "Georgia",color: Colors.orangeAccent,fontWeight:FontWeight.bold ),),
                           ),
                         )
                       ],
@@ -102,23 +109,24 @@ class Snacks extends StatelessWidget {
                   child: Card(
                     color: Colors.orange,
                     child: Column(
+                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
-                        SizedBox(width: 250,child: Image.asset("images/Logo.png")),
-                        Text("KAŞARLI GÖZLEME \n CHEDDAR CHEESE PANCAKE",style: TextStyle(fontSize: 15,color: Colors.white, fontWeight: FontWeight.bold),textAlign: TextAlign.center,),
-                        Text(
-                          "Domates, Salatalık İle",
-                          style: TextStyle(
-                            fontSize: 10,
-                            color: Colors.white,
-                          ),
-                          textAlign: TextAlign.center,
+                        SizedBox(width: 300,child: Image.asset("images/Logo.png")),
+                        Row(
+                          children: [
+                            Text("PATATES KIZARTMASI",style: TextStyle(fontFamily: "Georgia",fontSize: 15,color: Colors.white, fontWeight: FontWeight.bold),textAlign: TextAlign.center,),
+                            Padding(
+                              padding: const EdgeInsets.symmetric(horizontal: 8.0),
+                              child: Text("CİPS",style: TextStyle(fontFamily: "Georgia",fontSize: 10,color: Colors.black, fontWeight: FontWeight.bold),textAlign: TextAlign.center,),
+                            ),
+                          ],
                         ),
                         Padding(
                           padding: const EdgeInsets.symmetric(vertical: 8.0),
                           child: ElevatedButton(
                             style: ElevatedButton.styleFrom(backgroundColor: Colors.white,shadowColor: Colors.orange),
                             onPressed: (){},
-                            child: Text(" ___ ₺",style: TextStyle(color: Colors.orangeAccent,fontWeight:FontWeight.bold ),),
+                            child: Text(" ___ ₺",style: TextStyle(fontFamily: "Georgia",color: Colors.orangeAccent,fontWeight:FontWeight.bold ),),
                           ),
                         )
                       ],
@@ -130,23 +138,25 @@ class Snacks extends StatelessWidget {
                   child: Card(
                     color: Colors.orange,
                     child: Column(
+                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
-                        SizedBox(width: 250,child: Image.asset("images/Logo.png")),
-                        Text("PEYNİRLİ GÖZLEME \n CHEESE PANCAKE",style: TextStyle(fontSize: 15,color: Colors.white, fontWeight: FontWeight.bold),textAlign: TextAlign.center,),
-                        Text(
-                          "Domates, Salatalık İle",
-                          style: TextStyle(
-                            fontSize: 10,
-                            color: Colors.white,
-                          ),
-                          textAlign: TextAlign.center,
+                        SizedBox(width: 300,child: Image.asset("images/Logo.png")),
+                        Row(
+                          children: [
+                            Text("SİGARA BÖREĞİ",style: TextStyle(fontFamily: "Georgia",fontSize: 15,color: Colors.white, fontWeight: FontWeight.bold),textAlign: TextAlign.center,),
+                            Padding(
+                              padding: const EdgeInsets.symmetric(horizontal: 8.0),
+                              child: Text("PATTY",style: TextStyle(fontFamily: "Georgia",fontSize: 10,color: Colors.black, fontWeight: FontWeight.bold),textAlign: TextAlign.center,),
+                            ),
+                          ],
                         ),
+
                         Padding(
                           padding: const EdgeInsets.symmetric(vertical: 8.0),
                           child: ElevatedButton(
                             style: ElevatedButton.styleFrom(backgroundColor: Colors.white,shadowColor: Colors.orange),
                             onPressed: (){},
-                            child: Text(" ___ ₺",style: TextStyle(color: Colors.orangeAccent,fontWeight:FontWeight.bold ),),
+                            child: Text(" ___ ₺",style: TextStyle(fontFamily: "Georgia",color: Colors.orangeAccent,fontWeight:FontWeight.bold ),),
                           ),
                         )
                       ],
@@ -158,15 +168,16 @@ class Snacks extends StatelessWidget {
                   child: Card(
                     color: Colors.orange,
                     child: Column(
+                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
-                        SizedBox(width: 250,child: Image.asset("images/Logo.png")),
-                        Text("PATATESLİ GÖZLEME \n PATATOES PANCAKE",style: TextStyle(fontSize: 15,color: Colors.white, fontWeight: FontWeight.bold),textAlign: TextAlign.center,),
+                        SizedBox(width: 300,child: Image.asset("images/Logo.png")),
+                        Text("SOĞAN HALKASI",style: TextStyle(fontFamily: "Georgia",fontSize: 15,color: Colors.white, fontWeight: FontWeight.bold),textAlign: TextAlign.center,),
                         Padding(
                           padding: const EdgeInsets.symmetric(vertical: 8.0),
                           child: ElevatedButton(
                             style: ElevatedButton.styleFrom(backgroundColor: Colors.white,shadowColor: Colors.orange),
                             onPressed: (){},
-                            child: Text(" ___ ₺",style: TextStyle(color: Colors.orangeAccent,fontWeight:FontWeight.bold ),),
+                            child: Text(" ___ ₺",style: TextStyle(fontFamily: "Georgia",color: Colors.orangeAccent,fontWeight:FontWeight.bold ),),
                           ),
                         )
                       ],
@@ -178,135 +189,16 @@ class Snacks extends StatelessWidget {
                   child: Card(
                     color: Colors.orange,
                     child: Column(
+                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
-                        SizedBox(width: 250,child: Image.asset("images/Logo.png")),
-                        Text("SAHANDA YUMURTA \n SUNNY SİDE UP EGG",style: TextStyle(fontSize: 15,color: Colors.white, fontWeight: FontWeight.bold),textAlign: TextAlign.center,),
+                        SizedBox(width: 300,child: Image.asset("images/Logo.png")),
+                        Text("SOSİS TABAĞI",style: TextStyle(fontFamily: "Georgia",fontSize: 15,color: Colors.white, fontWeight: FontWeight.bold),textAlign: TextAlign.center,),
                         Padding(
                           padding: const EdgeInsets.symmetric(vertical: 8.0),
                           child: ElevatedButton(
                             style: ElevatedButton.styleFrom(backgroundColor: Colors.white,shadowColor: Colors.orange),
                             onPressed: (){},
-                            child: Text(" ___ ₺",style: TextStyle(color: Colors.orangeAccent,fontWeight:FontWeight.bold ),),
-                          ),
-                        )
-                      ],
-                    ),
-                  ),
-                ),
-                Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: Card(
-                    color: Colors.orange,
-                    child: Column(
-                      children: [
-                        SizedBox(width: 250,child: Image.asset("images/Logo.png")),
-                        Text("SUCUKLU YUMURTA \n SAUSAGE WITH EGG",style: TextStyle(fontSize: 15,color: Colors.white, fontWeight: FontWeight.bold),textAlign: TextAlign.center,),
-                        Padding(
-                          padding: const EdgeInsets.symmetric(vertical: 8.0),
-                          child: ElevatedButton(
-                            style: ElevatedButton.styleFrom(backgroundColor: Colors.white,shadowColor: Colors.orange),
-                            onPressed: (){},
-                            child: Text(" ___ ₺",style: TextStyle(color: Colors.orangeAccent,fontWeight:FontWeight.bold ),),
-                          ),
-                        )
-                      ],
-                    ),
-                  ),
-                ),
-                Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: Card(
-                    color: Colors.orange,
-                    child: Column(
-                      children: [
-                        SizedBox(width: 250,child: Image.asset("images/Logo.png")),
-                        Text("KIYMALI YUMURTA \n MEATBALL WITH EGG",style: TextStyle(fontSize: 15,color: Colors.white, fontWeight: FontWeight.bold),textAlign: TextAlign.center,),
-                        Padding(
-                          padding: const EdgeInsets.symmetric(vertical: 8.0),
-                          child: ElevatedButton(
-                            style: ElevatedButton.styleFrom(backgroundColor: Colors.white,shadowColor: Colors.orange),
-                            onPressed: (){},
-                            child: Text(" ___ ₺",style: TextStyle(color: Colors.orangeAccent,fontWeight:FontWeight.bold ),),
-                          ),
-                        )
-                      ],
-                    ),
-                  ),
-                ),
-                Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: Card(
-                    color: Colors.orange,
-                    child: Column(
-                      children: [
-                        SizedBox(width: 250,child: Image.asset("images/Logo.png")),
-                        Text("OMLET \n CHEDDAR CHEESE OMELETTE",style: TextStyle(fontSize: 15,color: Colors.white, fontWeight: FontWeight.bold),textAlign: TextAlign.center,),
-                        Padding(
-                          padding: const EdgeInsets.symmetric(vertical: 8.0),
-                          child: ElevatedButton(
-                            style: ElevatedButton.styleFrom(backgroundColor: Colors.white,shadowColor: Colors.orange),
-                            onPressed: (){},
-                            child: Text(" ___ ₺",style: TextStyle(color: Colors.orangeAccent,fontWeight:FontWeight.bold ),),
-                          ),
-                        )
-                      ],
-                    ),
-                  ),
-                ),
-                Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: Card(
-                    color: Colors.orange,
-                    child: Column(
-                      children: [
-                        SizedBox(width: 250,child: Image.asset("images/Logo.png")),
-                        Text("KAŞARLI OMLET \n OMELETTE",style: TextStyle(fontSize: 15,color: Colors.white, fontWeight: FontWeight.bold),textAlign: TextAlign.center,),
-                        Padding(
-                          padding: const EdgeInsets.symmetric(vertical: 8.0),
-                          child: ElevatedButton(
-                            style: ElevatedButton.styleFrom(backgroundColor: Colors.white,shadowColor: Colors.orange),
-                            onPressed: (){},
-                            child: Text(" ___ ₺",style: TextStyle(color: Colors.orangeAccent,fontWeight:FontWeight.bold ),),
-                          ),
-                        )
-                      ],
-                    ),
-                  ),
-                ),
-                Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: Card(
-                    color: Colors.orange,
-                    child: Column(
-                      children: [
-                        SizedBox(width: 250,child: Image.asset("images/Logo.png")),
-                        Text("MENEMEN",style: TextStyle(fontSize: 15,color: Colors.white, fontWeight: FontWeight.bold),textAlign: TextAlign.center,),
-                        Padding(
-                          padding: const EdgeInsets.symmetric(vertical: 8.0),
-                          child: ElevatedButton(
-                            style: ElevatedButton.styleFrom(backgroundColor: Colors.white,shadowColor: Colors.orange),
-                            onPressed: (){},
-                            child: Text(" ___ ₺",style: TextStyle(color: Colors.orangeAccent,fontWeight:FontWeight.bold ),),
-                          ),
-                        )
-                      ],
-                    ),
-                  ),
-                ),
-                Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: Card(
-                    color: Colors.orange,
-                    child: Column(
-                      children: [
-                        SizedBox(width: 250,child: Image.asset("images/Logo.png")),
-                        Text("KUYMAK",style: TextStyle(fontSize: 15,color: Colors.white, fontWeight: FontWeight.bold),textAlign: TextAlign.center,),
-                        Padding(
-                          padding: const EdgeInsets.symmetric(vertical: 8.0),
-                          child: ElevatedButton(
-                            style: ElevatedButton.styleFrom(backgroundColor: Colors.white,shadowColor: Colors.orange),
-                            onPressed: (){},
-                            child: Text(" ___ ₺",style: TextStyle(color: Colors.orangeAccent,fontWeight:FontWeight.bold ),),
+                            child: Text(" ___ ₺",style: TextStyle(fontFamily: "Georgia",color: Colors.orangeAccent,fontWeight:FontWeight.bold ),),
                           ),
                         )
                       ],
