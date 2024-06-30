@@ -1,9 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:sesamos_cafe/Pages/Foods_Menus/Snacks.dart';
-import 'package:sesamos_cafe/Pages/Foods_Menus/Toasts.dart';
-import 'package:sesamos_cafe/Pages/Foods_Menus/Wraps.dart';
-import 'package:sesamos_cafe/Pages/Foods_Menus/breakfastWidget.dart';
-import 'package:sesamos_cafe/Pages/Foods_Menus/ekmekArasi.dart';
+import 'package:sesamos_cafe/Pages/choiceFoodMenu/Foods_Menus/Burgers.dart';
+import 'package:sesamos_cafe/Pages/choiceFoodMenu/Foods_Menus/Fajitas.dart';
+import 'package:sesamos_cafe/Pages/choiceFoodMenu/Foods_Menus/Pizzas.dart';
+import 'package:sesamos_cafe/Pages/choiceFoodMenu/Foods_Menus/Qusedilla.dart';
+import 'package:sesamos_cafe/Pages/choiceFoodMenu/Foods_Menus/Snacks.dart';
+import 'package:sesamos_cafe/Pages/choiceFoodMenu/Foods_Menus/Toasts.dart';
+import 'package:sesamos_cafe/Pages/choiceFoodMenu/Foods_Menus/Wraps.dart';
+import 'package:sesamos_cafe/Pages/choiceFoodMenu/Foods_Menus/ekmekArasi.dart';
+import 'package:sesamos_cafe/Pages/choiceFoodMenu/Foods_Menus/pastaMakarna.dart';
+
 
 class Foods extends StatefulWidget {
   const Foods({super.key});
@@ -34,11 +39,15 @@ class _FoodsState extends State<Foods> {
       body: SingleChildScrollView(
         child: Column(
           children: [
-            Breakfast(),
             Snacks(),
             Toasts(),
             Breads(),
             Wraps(),
+            Qusedilla(),
+            Fajitas(),
+            Burgers(),
+            Pizzas(),
+            Pastas(),
           ],
         ),
       ),

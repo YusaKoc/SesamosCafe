@@ -1,14 +1,15 @@
 import 'package:flutter/material.dart';
-import 'package:sesamos_cafe/Pages/choiceFoodMenu/foodChoice.dart';
+import 'package:sesamos_cafe/Pages/choiceFoodMenu/Foods.dart';
+import 'package:sesamos_cafe/Pages/choiceFoodMenu/breakfastMenu/breakfastPage.dart';
 
-class MainPage extends StatefulWidget {
-  const MainPage({super.key});
+class FoodOrDesert extends StatefulWidget {
+  const FoodOrDesert({super.key});
 
   @override
-  State<MainPage> createState() => _MainPageState();
+  State<FoodOrDesert> createState() => _FoodOrDesertState();
 }
 
-class _MainPageState extends State<MainPage> {
+class _FoodOrDesertState extends State<FoodOrDesert> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -22,24 +23,25 @@ class _MainPageState extends State<MainPage> {
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
                 ElevatedButton(
-                  child: Text("YEMEKLER", style: TextStyle(fontSize: 22,color: Colors.white,fontWeight: FontWeight.w300,fontFamily: "Georgia",),),
+                  child: Text("ANA YEMEKLER", style: TextStyle(fontSize: 20,color: Colors.white,fontWeight: FontWeight.w300,fontFamily: "Georgia",),),
                   style: ElevatedButton.styleFrom(backgroundColor: Colors.orange),
                   onPressed: (){
-                    Navigator.push(context, MaterialPageRoute(builder: (context)=>FoodOrDesert()));
+                    Navigator.push(context, MaterialPageRoute(builder: (context)=>Foods()));
 
                   },
                 ),
                 ElevatedButton(
-                  child: Text("İÇECEKLER", style: TextStyle(fontSize: 22,color: Colors.white,fontWeight: FontWeight.w300,fontFamily: "Georgia",),),
+                  child: Text("KAHVALTILAR", style: TextStyle(fontSize: 20,color: Colors.white,fontWeight: FontWeight.w300,fontFamily: "Georgia",),),
                   style: ElevatedButton.styleFrom(backgroundColor: Colors.orange),
                   onPressed: (){
+                    Navigator.push(context, MaterialPageRoute(builder: (context)=>BreakfastPage()));
                   },
                 ),
               ],
             ),
             SizedBox(height: 50,),
             ElevatedButton(
-              child: Text("NARGİLE ÇEŞİTLERİ", style: TextStyle(fontSize: 22,color: Colors.white,fontWeight: FontWeight.w300,fontFamily: "Georgia",),),
+              child: Text("TATLILAR", style: TextStyle(fontSize: 20,color: Colors.white,fontWeight: FontWeight.w300,fontFamily: "Georgia",),),
               style: ElevatedButton.styleFrom(backgroundColor: Colors.orange),
               onPressed: (){
               },
