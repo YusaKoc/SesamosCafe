@@ -1,14 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:sesamos_cafe/Pages/choiceFoodMenu/Foods_Menus/breakfastWidget.dart';
 
-class BreakfastPage extends StatefulWidget {
-  const BreakfastPage({super.key});
+class AlkolDrinks extends StatefulWidget {
+  const AlkolDrinks({super.key});
 
   @override
-  State<BreakfastPage> createState() => _BreakfastPageState();
+  State<AlkolDrinks> createState() => _AlkolDrinksState();
 }
 
-class _BreakfastPageState extends State<BreakfastPage> {
+class _AlkolDrinksState extends State<AlkolDrinks> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -19,7 +18,6 @@ class _BreakfastPageState extends State<BreakfastPage> {
             children: [
               SizedBox(height: 50,),
               Image.asset("images/Logo.png"),
-              Breakfast(),
             ],
           ),
         ),

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 import 'package:sesamos_cafe/Pages/choiceFoodMenu/foodChoice.dart';
 
 class MainPage extends StatefulWidget {
@@ -25,7 +26,7 @@ class _MainPageState extends State<MainPage> {
                   child: Text("YEMEKLER", style: TextStyle(fontSize: 22,color: Colors.white,fontWeight: FontWeight.w300,fontFamily: "Georgia",),),
                   style: ElevatedButton.styleFrom(backgroundColor: Colors.orange),
                   onPressed: (){
-                    Navigator.push(context, MaterialPageRoute(builder: (context)=>FoodOrDesert()));
+                    GoRouter.of(context).go("/choiceFood");
 
                   },
                 ),
@@ -33,6 +34,8 @@ class _MainPageState extends State<MainPage> {
                   child: Text("İÇECEKLER", style: TextStyle(fontSize: 22,color: Colors.white,fontWeight: FontWeight.w300,fontFamily: "Georgia",),),
                   style: ElevatedButton.styleFrom(backgroundColor: Colors.orange),
                   onPressed: (){
+                    GoRouter.of(context).go("/choiceDrink");
+
                   },
                 ),
               ],
