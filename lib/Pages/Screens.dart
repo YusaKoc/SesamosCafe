@@ -4,6 +4,7 @@ import 'package:sesamos_cafe/Pages/Drinks/choiceDrinkMenu/ColdDrinks.dart';
 import 'package:sesamos_cafe/Pages/Drinks/choiceDrinkMenu/HotDrinks.dart';
 import 'package:sesamos_cafe/Pages/Drinks/choiceDrinkMenu/drinkChoice.dart';
 import 'package:sesamos_cafe/Pages/MainPage.dart';
+import 'package:sesamos_cafe/Pages/Nargile/NargilePage.dart';
 import 'package:sesamos_cafe/Pages/choiceFoodMenu/Deserts.dart';
 import 'package:sesamos_cafe/Pages/choiceFoodMenu/Foods.dart';
 import 'package:sesamos_cafe/Pages/choiceFoodMenu/breakfastMenu/breakfastPage.dart';
@@ -20,6 +21,8 @@ final GoRouter router = GoRouter(initialLocation:"/main",
       GoRoute(path: '/coldDrink',builder: (context, index) => const ColdDrinks()),
       GoRoute(path: '/hotDrink',builder: (context, index) => const HotDrinks()),
       GoRoute(path: '/alkolDrink',builder: (context, index) => const AlkolDrinks()),
+      GoRoute(path: '/nargile',builder: (context, index) => const NargileMainPage()),
+
 
 
 

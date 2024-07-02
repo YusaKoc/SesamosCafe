@@ -45,6 +45,8 @@ class _MainPageState extends State<MainPage> {
               child: Text("NARGİLE ÇEŞİTLERİ", style: TextStyle(fontSize: 22,color: Colors.white,fontWeight: FontWeight.w300,fontFamily: "Georgia",),),
               style: ElevatedButton.styleFrom(backgroundColor: Colors.orange),
               onPressed: (){
+                GoRouter.of(context).go("/nargile");
+
               },
             ),
           ],

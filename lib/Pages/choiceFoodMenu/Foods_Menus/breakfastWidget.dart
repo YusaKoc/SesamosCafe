@@ -47,7 +47,7 @@ class Breakfast extends StatelessWidget {
                             ),
                           ),
                           Text(
-                            "SERPME KAHVALTI (2 KİŞİLİK) \n EK SERVİS ÜCRETİ ____ TL",
+                            "SERPME KAHVALTI (2 KİŞİLİK) \n EK SERVİS ÜCRETİ 70 TL",
                             style: TextStyle(
                                 fontFamily: "Georgia",
                                 fontSize: 15,
@@ -70,7 +70,7 @@ class Breakfast extends StatelessWidget {
                             child: ElevatedButton(
                               style: ElevatedButton.styleFrom(backgroundColor: Colors.white,shadowColor: Colors.orange),
                               onPressed: (){},
-                              child: Text(" ___ ₺",style: TextStyle(color: Colors.orangeAccent,fontWeight:FontWeight.bold,fontFamily: "Georgia", ),),
+                              child: Text(" 700 ₺",style: TextStyle(color: Colors.orangeAccent,fontWeight:FontWeight.bold,fontFamily: "Georgia", ),),
                             ),
                           )
                         ],
@@ -108,7 +108,7 @@ class Breakfast extends StatelessWidget {
                             child: ElevatedButton(
                               style: ElevatedButton.styleFrom(backgroundColor: Colors.white,shadowColor: Colors.orange),
                               onPressed: (){},
-                              child: Text(" ___ ₺",style: TextStyle(color: Colors.orangeAccent,fontWeight:FontWeight.bold,fontFamily: "Georgia", ),),
+                              child: Text(" 290 ₺",style: TextStyle(color: Colors.orangeAccent,fontWeight:FontWeight.bold,fontFamily: "Georgia", ),),
                             ),
                           )
                         ],
@@ -146,7 +146,7 @@ class Breakfast extends StatelessWidget {
                             child: ElevatedButton(
                               style: ElevatedButton.styleFrom(backgroundColor: Colors.white,shadowColor: Colors.orange),
                               onPressed: (){},
-                              child: Text(" ___ ₺",style: TextStyle(color: Colors.orangeAccent,fontWeight:FontWeight.bold,fontFamily: "Georgia", ),),
+                              child: Text(" 120 ₺",style: TextStyle(color: Colors.orangeAccent,fontWeight:FontWeight.bold,fontFamily: "Georgia", ),),
                             ),
                           )
                         ],
@@ -184,7 +184,7 @@ class Breakfast extends StatelessWidget {
                             child: ElevatedButton(
                               style: ElevatedButton.styleFrom(backgroundColor: Colors.white,shadowColor: Colors.orange),
                               onPressed: (){},
-                              child: Text(" ___ ₺",style: TextStyle(color: Colors.orangeAccent,fontWeight:FontWeight.bold,fontFamily: "Georgia", ),),
+                              child: Text(" 120 ₺",style: TextStyle(color: Colors.orangeAccent,fontWeight:FontWeight.bold,fontFamily: "Georgia", ),),
                             ),
                           )
                         ],
@@ -213,7 +213,7 @@ class Breakfast extends StatelessWidget {
                             child: ElevatedButton(
                               style: ElevatedButton.styleFrom(backgroundColor: Colors.white,shadowColor: Colors.orange),
                               onPressed: (){},
-                              child: Text(" ___ ₺",style: TextStyle(color: Colors.orangeAccent,fontWeight:FontWeight.bold,fontFamily: "Georgia", ),),
+                              child: Text(" 120 ₺",style: TextStyle(color: Colors.orangeAccent,fontWeight:FontWeight.bold,fontFamily: "Georgia", ),),
                             ),
                           )
                         ],
@@ -242,7 +242,7 @@ class Breakfast extends StatelessWidget {
                             child: ElevatedButton(
                               style: ElevatedButton.styleFrom(backgroundColor: Colors.white,shadowColor: Colors.orange),
                               onPressed: (){},
-                              child: Text(" ___ ₺",style: TextStyle(color: Colors.orangeAccent,fontWeight:FontWeight.bold,fontFamily: "Georgia", ),),
+                              child: Text(" 90 ₺",style: TextStyle(color: Colors.orangeAccent,fontWeight:FontWeight.bold,fontFamily: "Georgia", ),),
                             ),
                           )
                         ],
@@ -271,7 +271,7 @@ class Breakfast extends StatelessWidget {
                             child: ElevatedButton(
                               style: ElevatedButton.styleFrom(backgroundColor: Colors.white,shadowColor: Colors.orange),
                               onPressed: (){},
-                              child: Text(" ___ ₺",style: TextStyle(color: Colors.orangeAccent,fontWeight:FontWeight.bold,fontFamily: "Georgia", ),),
+                              child: Text(" 120 ₺",style: TextStyle(color: Colors.orangeAccent,fontWeight:FontWeight.bold,fontFamily: "Georgia", ),),
                             ),
                           )
                         ],
@@ -300,7 +300,7 @@ class Breakfast extends StatelessWidget {
                             child: ElevatedButton(
                               style: ElevatedButton.styleFrom(backgroundColor: Colors.white,shadowColor: Colors.orange),
                               onPressed: (){},
-                              child: Text(" ___ ₺",style: TextStyle(color: Colors.orangeAccent,fontWeight:FontWeight.bold,fontFamily: "Georgia", ),),
+                              child: Text(" 140 ₺",style: TextStyle(color: Colors.orangeAccent,fontWeight:FontWeight.bold,fontFamily: "Georgia", ),),
                             ),
                           )
                         ],
@@ -329,7 +329,7 @@ class Breakfast extends StatelessWidget {
                             child: ElevatedButton(
                               style: ElevatedButton.styleFrom(backgroundColor: Colors.white,shadowColor: Colors.orange),
                               onPressed: (){},
-                              child: Text(" ___ ₺",style: TextStyle(color: Colors.orangeAccent,fontWeight:FontWeight.bold,fontFamily: "Georgia", ),),
+                              child: Text(" 90 ₺",style: TextStyle(color: Colors.orangeAccent,fontWeight:FontWeight.bold,fontFamily: "Georgia", ),),
                             ),
                           )
                         ],
@@ -358,7 +358,7 @@ class Breakfast extends StatelessWidget {
                             child: ElevatedButton(
                               style: ElevatedButton.styleFrom(backgroundColor: Colors.white,shadowColor: Colors.orange),
                               onPressed: (){},
-                              child: Text(" ___ ₺",style: TextStyle(color: Colors.orangeAccent,fontWeight:FontWeight.bold,fontFamily: "Georgia", ),),
+                              child: Text(" 110 ₺",style: TextStyle(color: Colors.orangeAccent,fontWeight:FontWeight.bold,fontFamily: "Georgia", ),),
                             ),
                           )
                         ],
@@ -379,7 +379,7 @@ class Breakfast extends StatelessWidget {
                             child: ElevatedButton(
                               style: ElevatedButton.styleFrom(backgroundColor: Colors.white,shadowColor: Colors.orange),
                               onPressed: (){},
-                              child: Text(" ___ ₺",style: TextStyle(color: Colors.orangeAccent,fontWeight:FontWeight.bold,fontFamily: "Georgia", ),),
+                              child: Text(" 120 ₺",style: TextStyle(color: Colors.orangeAccent,fontWeight:FontWeight.bold,fontFamily: "Georgia", ),),
                             ),
                           )
                         ],
@@ -400,7 +400,7 @@ class Breakfast extends StatelessWidget {
                             child: ElevatedButton(
                               style: ElevatedButton.styleFrom(backgroundColor: Colors.white,shadowColor: Colors.orange),
                               onPressed: (){},
-                              child: Text(" ___ ₺",style: TextStyle(color: Colors.orangeAccent,fontWeight:FontWeight.bold,fontFamily: "Georgia", ),),
+                              child: Text(" 170 ₺",style: TextStyle(color: Colors.orangeAccent,fontWeight:FontWeight.bold,fontFamily: "Georgia", ),),
                             ),
                           )
                         ],

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:sesamos_cafe/Pages/Drinks/choiceDrinkMenu/DrinkMenus/hotDrinkMenuPage.dart';
 
 class HotDrinks extends StatefulWidget {
   const HotDrinks({super.key});
@@ -18,6 +19,7 @@ class _HotDrinksState extends State<HotDrinks> {
             children: [
               SizedBox(height: 50,),
               Image.asset("images/Logo.png"),
+              HotDrinkPage(),
             ],
           ),
         ),

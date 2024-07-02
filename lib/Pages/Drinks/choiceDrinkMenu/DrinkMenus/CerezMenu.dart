@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class Wraps extends StatelessWidget {
-  const Wraps({super.key});
+class Cerezler extends StatelessWidget {
+  const Cerezler({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -13,7 +13,7 @@ class Wraps extends StatelessWidget {
           ElevatedButton(
             onPressed: () {},
             child: Text(
-              "WRAP",
+              "ÇEREZ",
               style: TextStyle(
                 fontFamily: "Georgia",
                 fontWeight: FontWeight.w300,
@@ -46,24 +46,12 @@ class Wraps extends StatelessWidget {
                             child: Image.asset("images/kahvalti.webp",fit: BoxFit.contain,),
                           ),
                         ),
-                        Row(
-                          children: [
-                            Text(
-                              "ETLİ WRAP",
-                              style: TextStyle(fontFamily: "Georgia",
-                                  fontSize: 15,
-                                  color: Colors.white,
-                                  fontWeight: FontWeight.bold
-                              ),
-                              textAlign: TextAlign.center,
-                            ),
-                          ],
-                        ),
                         Text(
-                          "Jülyen Et Parçaları, Kapya, Biber, Mantar, Soya Sosu, \n Yanında Cips ve Salata İle",
+                          "KARIŞIK ÇEREZ",
                           style: TextStyle(fontFamily: "Georgia",
-                            fontSize: 10,
-                            color: Colors.white,
+                              fontSize: 15,
+                              color: Colors.white,
+                              fontWeight: FontWeight.bold
                           ),
                           textAlign: TextAlign.center,
                         ),
@@ -72,7 +60,7 @@ class Wraps extends StatelessWidget {
                           child: ElevatedButton(
                             style: ElevatedButton.styleFrom(backgroundColor: Colors.white,shadowColor: Colors.orange),
                             onPressed: (){},
-                            child: Text(" 300 ₺",style: TextStyle(fontFamily: "Georgia",color: Colors.orangeAccent,fontWeight:FontWeight.bold ),),
+                            child: Text(" 100 ₺",style: TextStyle(fontFamily: "Georgia",color: Colors.orangeAccent,fontWeight:FontWeight.bold ),),
                           ),
                         )
                       ],
@@ -87,25 +75,13 @@ class Wraps extends StatelessWidget {
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
                         SizedBox(width: 300,child: Image.asset("images/Logo.png",fit: BoxFit.contain,)),
-                        Row(
-                          children: [
-                            Text("TAVUKLU WRAP",style: TextStyle(fontFamily: "Georgia",fontSize: 15,color: Colors.white , fontWeight: FontWeight.bold)),
-                          ],
-                        ),
-                        Text(
-                          "Jülyen Tavuk Göğsü, Kapya, Biber, Mantar, Soya Sosu, \n Yanında Cips ve Salata İle",
-                          style: TextStyle(fontFamily: "Georgia",
-                            fontSize: 10,
-                            color: Colors.white,
-                          ),
-                          textAlign: TextAlign.center,
-                        ),
+                        Text("FISTIK",style: TextStyle(fontFamily: "Georgia",fontSize: 15,color: Colors.white , fontWeight: FontWeight.bold)),
                         Padding(
                           padding: const EdgeInsets.symmetric(vertical: 8.0),
                           child: ElevatedButton(
                             style: ElevatedButton.styleFrom(backgroundColor: Colors.white,shadowColor: Colors.orange),
                             onPressed: (){},
-                            child: Text(" 200 ₺",style: TextStyle(fontFamily: "Georgia",color: Colors.orangeAccent,fontWeight:FontWeight.bold ),),
+                            child: Text(" 90 ₺",style: TextStyle(fontFamily: "Georgia",color: Colors.orangeAccent,fontWeight:FontWeight.bold ),),
                           ),
                         )
                       ],
