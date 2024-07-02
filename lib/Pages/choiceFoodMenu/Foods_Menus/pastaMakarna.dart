@@ -43,7 +43,7 @@ class Pastas extends StatelessWidget {
                           width: 150,
                           child: Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: Image.asset("images/kahvalti.webp",fit: BoxFit.contain,),
+                            child: Image.asset("images/penne.png",fit: BoxFit.contain,),
                           ),
                         ),
                         Text(
@@ -68,7 +68,7 @@ class Pastas extends StatelessWidget {
                           child: ElevatedButton(
                             style: ElevatedButton.styleFrom(backgroundColor: Colors.white,shadowColor: Colors.orange),
                             onPressed: (){},
-                            child: Text(" ___ ₺",style: TextStyle(fontFamily: "Georgia",color: Colors.orangeAccent,fontWeight:FontWeight.bold ),),
+                            child: Text(" 170 ₺",style: TextStyle(fontFamily: "Georgia",color: Colors.orangeAccent,fontWeight:FontWeight.bold ),),
                           ),
                         )
                       ],
@@ -82,22 +82,31 @@ class Pastas extends StatelessWidget {
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
-                        SizedBox(width: 300,child: Image.asset("images/Logo.png",fit: BoxFit.contain,)),
-                        Text("PENNE KREMALI TAVUKLU",style: TextStyle(fontFamily: "Georgia",fontSize: 15,color: Colors.white , fontWeight: FontWeight.bold)),
-                        Text(
-                          "Penne Makarna, Krema, Tavuk, Mantar, Pesto Sos",
-                          style: TextStyle(fontFamily: "Georgia",
-                            fontSize: 10,
-                            color: Colors.white,
+                        SizedBox(width: 150,child: Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: Image.asset("images/penne.png",fit: BoxFit.contain,),
+                        )),
+                        Padding(
+                          padding: const EdgeInsets.symmetric(horizontal: 8.0),
+                          child: Text("PENNE KREMALI TAVUKLU",style: TextStyle(fontFamily: "Georgia",fontSize: 15,color: Colors.white , fontWeight: FontWeight.bold)),
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.symmetric(horizontal: 8.0),
+                          child: Text(
+                            "Penne Makarna, Krema, Tavuk, Mantar, Pesto Sos",
+                            style: TextStyle(fontFamily: "Georgia",
+                              fontSize: 10,
+                              color: Colors.white,
+                            ),
+                            textAlign: TextAlign.center,
                           ),
-                          textAlign: TextAlign.center,
                         ),
                         Padding(
                           padding: const EdgeInsets.symmetric(vertical: 8.0),
                           child: ElevatedButton(
                             style: ElevatedButton.styleFrom(backgroundColor: Colors.white,shadowColor: Colors.orange),
                             onPressed: (){},
-                            child: Text(" ___ ₺",style: TextStyle(fontFamily: "Georgia",color: Colors.orangeAccent,fontWeight:FontWeight.bold ),),
+                            child: Text(" 200 ₺",style: TextStyle(fontFamily: "Georgia",color: Colors.orangeAccent,fontWeight:FontWeight.bold ),),
                           ),
                         )
                       ],
@@ -111,22 +120,28 @@ class Pastas extends StatelessWidget {
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
-                        SizedBox(width: 300,child: Image.asset("images/Logo.png")),
+                        SizedBox(width: 150,child: Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: Image.asset("images/fettucini.png"),
+                        )),
                         Text("FETTUCINI ALFREDO",style: TextStyle(fontFamily: "Georgia",fontSize: 15,color: Colors.white, fontWeight: FontWeight.bold),textAlign: TextAlign.center,),
-                        Text(
-                          "Fettucini Makarna, Tavuk, Mantar, Krema, Kekik, Fesleğen Sos",
-                          style: TextStyle(fontFamily: "Georgia",
-                            fontSize: 10,
-                            color: Colors.white,
+                        Padding(
+                          padding: const EdgeInsets.symmetric(horizontal: 8.0),
+                          child: Text(
+                            "Fettucini Makarna, Tavuk, Mantar, Krema, Kekik, Fesleğen Sos",
+                            style: TextStyle(fontFamily: "Georgia",
+                              fontSize: 10,
+                              color: Colors.white,
+                            ),
+                            textAlign: TextAlign.center,
                           ),
-                          textAlign: TextAlign.center,
                         ),
                         Padding(
                           padding: const EdgeInsets.symmetric(vertical: 8.0),
                           child: ElevatedButton(
                             style: ElevatedButton.styleFrom(backgroundColor: Colors.white,shadowColor: Colors.orange),
                             onPressed: (){},
-                            child: Text(" ___ ₺",style: TextStyle(fontFamily: "Georgia",color: Colors.orangeAccent,fontWeight:FontWeight.bold ),),
+                            child: Text(" 220 ₺",style: TextStyle(fontFamily: "Georgia",color: Colors.orangeAccent,fontWeight:FontWeight.bold ),),
                           ),
                         )
                       ],
@@ -140,22 +155,31 @@ class Pastas extends StatelessWidget {
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
-                        SizedBox(width: 300,child: Image.asset("images/Logo.png")),
-                        Text("SPAGHETTI NAPOLITAN",style: TextStyle(fontFamily: "Georgia",fontSize: 15,color: Colors.white, fontWeight: FontWeight.bold),textAlign: TextAlign.center,),
-                        Text(
-                          "Spaghetti Makarna, Domates Sos",
-                          style: TextStyle(fontFamily: "Georgia",
-                            fontSize: 10,
-                            color: Colors.white,
+                        SizedBox(width: 150,child: Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: Image.asset("images/napolitan.png"),
+                        )),
+                        Padding(
+                          padding: const EdgeInsets.symmetric(horizontal: 8.0),
+                          child: Text("SPAGHETTI NAPOLITAN",style: TextStyle(fontFamily: "Georgia",fontSize: 15,color: Colors.white, fontWeight: FontWeight.bold),textAlign: TextAlign.center,),
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.symmetric(horizontal: 8.0),
+                          child: Text(
+                            "Spaghetti Makarna, Domates Sos",
+                            style: TextStyle(fontFamily: "Georgia",
+                              fontSize: 10,
+                              color: Colors.white,
+                            ),
+                            textAlign: TextAlign.center,
                           ),
-                          textAlign: TextAlign.center,
                         ),
                         Padding(
                           padding: const EdgeInsets.symmetric(vertical: 8.0),
                           child: ElevatedButton(
                             style: ElevatedButton.styleFrom(backgroundColor: Colors.white,shadowColor: Colors.orange),
                             onPressed: (){},
-                            child: Text(" ___ ₺",style: TextStyle(fontFamily: "Georgia",color: Colors.orangeAccent,fontWeight:FontWeight.bold ),),
+                            child: Text(" 170 ₺",style: TextStyle(fontFamily: "Georgia",color: Colors.orangeAccent,fontWeight:FontWeight.bold ),),
                           ),
                         )
                       ],
@@ -169,22 +193,31 @@ class Pastas extends StatelessWidget {
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
-                        SizedBox(width: 300,child: Image.asset("images/Logo.png")),
-                        Text("SPAGHETTI BOLONEZ",style: TextStyle(fontFamily: "Georgia",fontSize: 15,color: Colors.white, fontWeight: FontWeight.bold),textAlign: TextAlign.center,),
-                        Text(
-                          "Spaghetti Makarna, Kıyma, Domates Sos",
-                          style: TextStyle(fontFamily: "Georgia",
-                            fontSize: 10,
-                            color: Colors.white,
+                        SizedBox(width: 150,child: Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: Image.asset("images/napolitan.png"),
+                        )),
+                        Padding(
+                          padding: const EdgeInsets.symmetric(horizontal: 18.0),
+                          child: Text("SPAGHETTI BOLONEZ",style: TextStyle(fontFamily: "Georgia",fontSize: 15,color: Colors.white, fontWeight: FontWeight.bold),textAlign: TextAlign.center,),
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.symmetric(horizontal: 18.0),
+                          child: Text(
+                            "Spaghetti Makarna, Kıyma, Domates Sos",
+                            style: TextStyle(fontFamily: "Georgia",
+                              fontSize: 10,
+                              color: Colors.white,
+                            ),
+                            textAlign: TextAlign.center,
                           ),
-                          textAlign: TextAlign.center,
                         ),
                         Padding(
                           padding: const EdgeInsets.symmetric(vertical: 8.0),
                           child: ElevatedButton(
                             style: ElevatedButton.styleFrom(backgroundColor: Colors.white,shadowColor: Colors.orange),
                             onPressed: (){},
-                            child: Text(" ___ ₺",style: TextStyle(fontFamily: "Georgia",color: Colors.orangeAccent,fontWeight:FontWeight.bold ),),
+                            child: Text(" 190 ₺",style: TextStyle(fontFamily: "Georgia",color: Colors.orangeAccent,fontWeight:FontWeight.bold ),),
                           ),
                         )
                       ],

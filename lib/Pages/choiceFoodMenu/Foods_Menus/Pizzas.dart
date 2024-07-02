@@ -43,7 +43,7 @@ class Pizzas extends StatelessWidget {
                           width: 150,
                           child: Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: Image.asset("images/kahvalti.webp",fit: BoxFit.contain,),
+                            child: Image.asset("images/margarita.png",fit: BoxFit.contain,),
                           ),
                         ),
                         Text(
@@ -68,7 +68,7 @@ class Pizzas extends StatelessWidget {
                           child: ElevatedButton(
                             style: ElevatedButton.styleFrom(backgroundColor: Colors.white,shadowColor: Colors.orange),
                             onPressed: (){},
-                            child: Text(" ___ ₺",style: TextStyle(fontFamily: "Georgia",color: Colors.orangeAccent,fontWeight:FontWeight.bold ),),
+                            child: Text("Stokta Yok",style: TextStyle(fontFamily: "Georgia",color: Colors.orangeAccent,fontWeight:FontWeight.bold ),),
                           ),
                         )
                       ],
@@ -82,7 +82,7 @@ class Pizzas extends StatelessWidget {
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
-                        SizedBox(width: 300,child: Image.asset("images/Logo.png",fit: BoxFit.contain,)),
+                        SizedBox(width: 150,child: Image.asset("images/mixPizza.png",fit: BoxFit.contain,)),
                         Text("KARIŞIK PİZZA",style: TextStyle(fontFamily: "Georgia",fontSize: 15,color: Colors.white , fontWeight: FontWeight.bold)),
                         Text(
                           "Sucuk, Salam, Sosis, Biber, Zeytin, Mısır, Mantar,\n Mozzarella Peyniri, Domates Sosu",
@@ -97,7 +97,7 @@ class Pizzas extends StatelessWidget {
                           child: ElevatedButton(
                             style: ElevatedButton.styleFrom(backgroundColor: Colors.white,shadowColor: Colors.orange),
                             onPressed: (){},
-                            child: Text(" ___ ₺",style: TextStyle(fontFamily: "Georgia",color: Colors.orangeAccent,fontWeight:FontWeight.bold ),),
+                            child: Text("Stokta Yok",style: TextStyle(fontFamily: "Georgia",color: Colors.orangeAccent,fontWeight:FontWeight.bold ),),
                           ),
                         )
                       ],
@@ -111,7 +111,7 @@ class Pizzas extends StatelessWidget {
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
-                        SizedBox(width: 300,child: Image.asset("images/Logo.png")),
+                        SizedBox(width: 150,child: Image.asset("images/vegetarian.png")),
                         Text("VEGETARIAN PİZZA",style: TextStyle(fontFamily: "Georgia",fontSize: 15,color: Colors.white, fontWeight: FontWeight.bold),textAlign: TextAlign.center,),
                         Text(
                           "Mozzarella Peyniri, Havuç, Kabak, Patlıcan, Mantar, Zeytin,\n Mısır, Domates Sosu",
@@ -126,7 +126,7 @@ class Pizzas extends StatelessWidget {
                           child: ElevatedButton(
                             style: ElevatedButton.styleFrom(backgroundColor: Colors.white,shadowColor: Colors.orange),
                             onPressed: (){},
-                            child: Text(" ___ ₺",style: TextStyle(fontFamily: "Georgia",color: Colors.orangeAccent,fontWeight:FontWeight.bold ),),
+                            child: Text("Stokta Yok",style: TextStyle(fontFamily: "Georgia",color: Colors.orangeAccent,fontWeight:FontWeight.bold ),),
                           ),
                         )
                       ],
@@ -140,7 +140,7 @@ class Pizzas extends StatelessWidget {
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
-                        SizedBox(width: 300,child: Image.asset("images/Logo.png")),
+                        SizedBox(width: 150,child: Image.asset("images/4cheese.png")),
                         Text("4 PEYNİRLİ PİZZA",style: TextStyle(fontFamily: "Georgia",fontSize: 15,color: Colors.white, fontWeight: FontWeight.bold),textAlign: TextAlign.center,),
                         Text(
                           "Mozzarella Peyniri, Tulum Peyniri, Rofkof Peyniri, \n Cheddar Peyniri, Domates Sosu",
@@ -155,7 +155,7 @@ class Pizzas extends StatelessWidget {
                           child: ElevatedButton(
                             style: ElevatedButton.styleFrom(backgroundColor: Colors.white,shadowColor: Colors.orange),
                             onPressed: (){},
-                            child: Text(" ___ ₺",style: TextStyle(fontFamily: "Georgia",color: Colors.orangeAccent,fontWeight:FontWeight.bold ),),
+                            child: Text("Stokta Yok",style: TextStyle(fontFamily: "Georgia",color: Colors.orangeAccent,fontWeight:FontWeight.bold ),),
                           ),
                         )
                       ],
@@ -169,7 +169,7 @@ class Pizzas extends StatelessWidget {
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
-                        SizedBox(width: 300,child: Image.asset("images/Logo.png")),
+                        SizedBox(width: 150,child: Image.asset("images/mexican.png")),
                         Text("MEXICAN PİZZA",style: TextStyle(fontFamily: "Georgia",fontSize: 15,color: Colors.white, fontWeight: FontWeight.bold),textAlign: TextAlign.center,),
                         Text(
                           "Mozzarella Peyniri, Sucuk, Jalapone Biber, Kapya",
@@ -184,7 +184,7 @@ class Pizzas extends StatelessWidget {
                           child: ElevatedButton(
                             style: ElevatedButton.styleFrom(backgroundColor: Colors.white,shadowColor: Colors.orange),
                             onPressed: (){},
-                            child: Text(" ___ ₺",style: TextStyle(fontFamily: "Georgia",color: Colors.orangeAccent,fontWeight:FontWeight.bold ),),
+                            child: Text("Stokta Yok",style: TextStyle(fontFamily: "Georgia",color: Colors.orangeAccent,fontWeight:FontWeight.bold ),),
                           ),
                         )
                       ],

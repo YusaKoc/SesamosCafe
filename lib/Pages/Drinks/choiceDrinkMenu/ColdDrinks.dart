@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:sesamos_cafe/Pages/Drinks/choiceDrinkMenu/DrinkMenus/coldDrinkMenuPage.dart';
+import 'package:sesamos_cafe/Pages/Drinks/choiceDrinkMenu/DrinkMenus/nonAlkolMenuPage.dart';
 
 class ColdDrinks extends StatefulWidget {
   const ColdDrinks({super.key});
@@ -18,6 +20,8 @@ class _ColdDrinksState extends State<ColdDrinks> {
             children: [
               SizedBox(height: 50,),
               Image.asset("images/Logo.png"),
+              ColdDrinkPage(),
+              NonAlkolMenuPage(),
             ],
           ),
         ),
