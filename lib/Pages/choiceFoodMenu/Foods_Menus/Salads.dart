@@ -43,7 +43,7 @@ class Salads extends StatelessWidget {
                           padding: const EdgeInsets.symmetric(horizontal: 28.0),
                           child: SizedBox(
                             width: 150,
-                            child: Image.asset("images/amasrasalata.png",fit: BoxFit.contain,),
+                            child: Image.asset("images/sesamos_salata.jpeg",fit: BoxFit.contain,),
                           ),
                         ),
                         Text(

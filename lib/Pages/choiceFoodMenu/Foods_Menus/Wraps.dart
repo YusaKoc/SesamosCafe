@@ -43,7 +43,7 @@ class Wraps extends StatelessWidget {
                           width: 150,
                           child: Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: Image.asset("images/etliwrap.png",fit: BoxFit.contain,),
+                            child: Image.asset("images/etwrap.jpeg",fit: BoxFit.contain,),
                           ),
                         ),
                         Row(
@@ -86,7 +86,7 @@ class Wraps extends StatelessWidget {
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
-                        SizedBox(width: 150,child: Image.asset("images/tavukwrap.png",fit: BoxFit.contain,)),
+                        SizedBox(width: 150,child: Image.asset("images/tavukwrap.jpeg",fit: BoxFit.contain,)),
                         Row(
                           children: [
                             Text("TAVUKLU WRAP",style: TextStyle(fontFamily: "Georgia",fontSize: 15,color: Colors.white , fontWeight: FontWeight.bold)),

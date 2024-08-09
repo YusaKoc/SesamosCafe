@@ -42,8 +42,8 @@ class AlkolDrinkPage extends StatelessWidget {
                         Padding(
                           padding: const EdgeInsets.symmetric(horizontal: 28.0),
                           child: SizedBox(
-                            width: 150,
-                            child: Image.asset("images/beers.png",fit: BoxFit.contain,),
+                            width: 50,
+                            child: Image.asset("images/efes.jpeg",fit: BoxFit.contain,),
                           ),
                         ),
                         Text(
@@ -77,7 +77,7 @@ class AlkolDrinkPage extends StatelessWidget {
                       children: [
                         Padding(
                           padding: const EdgeInsets.symmetric(horizontal: 28.0),
-                          child: SizedBox(width: 150,child: Image.asset("images/beers.png",fit: BoxFit.contain,)),
+                          child: SizedBox(width: 50,child: Image.asset("images/efesMalt.jpeg",fit: BoxFit.contain,)),
                         ),
                         Text("EFES MALT 50cl",style: TextStyle(fontSize: 15,color: Colors.white , fontWeight: FontWeight.bold,fontFamily: "Georgia",)),
                         Padding(
@@ -101,7 +101,7 @@ class AlkolDrinkPage extends StatelessWidget {
                       children: [
                         Padding(
                           padding: const EdgeInsets.symmetric(horizontal: 28.0),
-                          child: SizedBox(width: 150,child: Image.asset("images/beers.png")),
+                          child: SizedBox(width: 100,child: Image.asset("images/efesOzel.jpeg")),
                         ),
                         Text("EFES ÖZEL SERİ 50cl",style: TextStyle(fontSize: 15,color: Colors.white, fontWeight: FontWeight.bold,fontFamily: "Georgia",),textAlign: TextAlign.center),
                         Padding(
@@ -125,7 +125,7 @@ class AlkolDrinkPage extends StatelessWidget {
                       children: [
                         Padding(
                           padding: const EdgeInsets.symmetric(horizontal: 28.0),
-                          child: SizedBox(width: 150,child: Image.asset("images/beers.png")),
+                          child: SizedBox(width: 100,child: Image.asset("images/bomonti.jpeg")),
                         ),
                         Text("BOMONTİ FİLTRESİZ 50cl",style: TextStyle(fontSize: 15,color: Colors.white, fontWeight: FontWeight.bold,fontFamily: "Georgia",),textAlign: TextAlign.center),
                         Padding(
@@ -149,7 +149,7 @@ class AlkolDrinkPage extends StatelessWidget {
                       children: [
                         Padding(
                           padding: const EdgeInsets.symmetric(horizontal: 28.0),
-                          child: SizedBox(width: 150,child: Image.asset("images/beers.png")),
+                          child: SizedBox(width: 150,child: Image.asset("images/becks.jpeg")),
                         ),
                         Text("BECK 50cl",style: TextStyle(fontSize: 15,color: Colors.white, fontWeight: FontWeight.bold,fontFamily: "Georgia",),textAlign: TextAlign.center,),
                         Padding(
@@ -173,7 +173,7 @@ class AlkolDrinkPage extends StatelessWidget {
                       children: [
                         Padding(
                           padding: const EdgeInsets.symmetric(horizontal: 28.0),
-                          child: SizedBox(width: 150,child: Image.asset("images/beers.png")),
+                          child: SizedBox(width: 110,child: Image.asset("images/bud.jpeg")),
                         ),
                         Text("BUD 50cl",style: TextStyle(fontSize: 15,color: Colors.white, fontWeight: FontWeight.bold,fontFamily: "Georgia",),textAlign: TextAlign.center,),
                         Padding(
@@ -197,7 +197,7 @@ class AlkolDrinkPage extends StatelessWidget {
                       children: [
                         Padding(
                           padding: const EdgeInsets.symmetric(horizontal: 28.0),
-                          child: SizedBox(width: 150,child: Image.asset("images/beers.png")),
+                          child: SizedBox(width: 110,child: Image.asset("images/amsterdam.jpeg")),
                         ),
                         Text("AMSTERDAM 50cl",style: TextStyle(fontSize: 15,color: Colors.white, fontWeight: FontWeight.bold,fontFamily: "Georgia",),textAlign: TextAlign.center,),
                         Padding(
@@ -221,7 +221,7 @@ class AlkolDrinkPage extends StatelessWidget {
                       children: [
                         Padding(
                           padding: const EdgeInsets.symmetric(horizontal: 28.0),
-                          child: SizedBox(width: 150,child: Image.asset("images/beers.png")),
+                          child: SizedBox(width: 110,child: Image.asset("images/corona.jpeg")),
                         ),
                         Text("CORONA 50cl",style: TextStyle(fontSize: 15,color: Colors.white, fontWeight: FontWeight.bold,fontFamily: "Georgia",),textAlign: TextAlign.center,),
                         Padding(
@@ -245,7 +245,7 @@ class AlkolDrinkPage extends StatelessWidget {
                       children: [
                         Padding(
                           padding: const EdgeInsets.symmetric(horizontal: 28.0),
-                          child: SizedBox(width: 150,child: Image.asset("images/beers.png")),
+                          child: SizedBox(width: 150,child: Image.asset("images/miller.jpeg")),
                         ),
                         Text("MİLLER 33cl",style: TextStyle(fontSize: 15,color: Colors.white, fontWeight: FontWeight.bold,fontFamily: "Georgia",),textAlign: TextAlign.center,),
                         Padding(

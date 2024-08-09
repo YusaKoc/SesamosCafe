@@ -43,7 +43,7 @@ class Mezeler extends StatelessWidget {
                           padding: const EdgeInsets.symmetric(horizontal: 28.0),
                           child: SizedBox(
                             width: 150,
-                            child: Image.asset("images/meze.png",fit: BoxFit.contain,),
+                            child: Image.asset("images/peynirTabagi.jpeg",fit: BoxFit.contain,),
                           ),
                         ),
                         Text("PEYNİR TABAĞI",style: TextStyle(fontFamily: "Georgia",fontSize: 15,color: Colors.white , fontWeight: FontWeight.bold)),
@@ -68,7 +68,7 @@ class Mezeler extends StatelessWidget {
                       children: [
                         Padding(
                           padding: const EdgeInsets.symmetric(horizontal: 28.0),
-                          child: SizedBox(width: 150,child: Image.asset("images/meze.png",fit: BoxFit.contain,)),
+                          child: SizedBox(width: 150,child: Image.asset("images/meyveTabagi.jpeg",fit: BoxFit.contain,)),
                         ),
                         Text("MEYVE TABAĞI",style: TextStyle(fontFamily: "Georgia",fontSize: 15,color: Colors.white , fontWeight: FontWeight.bold)),
                         Padding(
@@ -92,7 +92,7 @@ class Mezeler extends StatelessWidget {
                       children: [
                         Padding(
                           padding: const EdgeInsets.symmetric(horizontal: 28.0),
-                          child: SizedBox(width: 150,child: Image.asset("images/meze.png")),
+                          child: SizedBox(width: 150,child: Image.asset("images/kozbiber.jpeg")),
                         ),
                         Text("KÖZ BİBER",style: TextStyle(fontFamily: "Georgia",fontSize: 15,color: Colors.white, fontWeight: FontWeight.bold),textAlign: TextAlign.center,),
                         Padding(
@@ -116,7 +116,7 @@ class Mezeler extends StatelessWidget {
                       children: [
                         Padding(
                           padding: const EdgeInsets.symmetric(horizontal: 28.0),
-                          child: SizedBox(width: 150,child: Image.asset("images/meze.png")),
+                          child: SizedBox(width: 150,child: Image.asset("images/kozPatlican.jpeg")),
                         ),
                         Text("KÖZ PATLICAN",style: TextStyle(fontFamily: "Georgia",fontSize: 15,color: Colors.white, fontWeight: FontWeight.bold),textAlign: TextAlign.center,),
                         Padding(
@@ -164,7 +164,7 @@ class Mezeler extends StatelessWidget {
                       children: [
                         Padding(
                           padding: const EdgeInsets.symmetric(horizontal: 28.0),
-                          child: SizedBox(width: 150,child: Image.asset("images/meze.png")),
+                          child: SizedBox(width: 150,child: Image.asset("images/haydari.jpeg")),
                         ),
                         Text("HAYDARİ",style: TextStyle(fontFamily: "Georgia",fontSize: 15,color: Colors.white, fontWeight: FontWeight.bold),textAlign: TextAlign.center,),
                         Padding(
@@ -188,7 +188,7 @@ class Mezeler extends StatelessWidget {
                       children: [
                         Padding(
                           padding: const EdgeInsets.symmetric(horizontal: 28.0),
-                          child: SizedBox(width: 150,child: Image.asset("images/meze.png")),
+                          child: SizedBox(width: 150,child: Image.asset("images/aciliEzme.jpeg")),
                         ),
                         Text("ACILI EZME",style: TextStyle(fontFamily: "Georgia",fontSize: 15,color: Colors.white, fontWeight: FontWeight.bold),textAlign: TextAlign.center,),
                         Padding(
@@ -212,7 +212,7 @@ class Mezeler extends StatelessWidget {
                       children: [
                         Padding(
                           padding: const EdgeInsets.symmetric(horizontal: 28.0),
-                          child: SizedBox(width: 150,child: Image.asset("images/meze.png")),
+                          child: SizedBox(width: 150,child: Image.asset("images/atom.jpeg")),
                         ),
                         Text("ATOM",style: TextStyle(fontFamily: "Georgia",fontSize: 15,color: Colors.white, fontWeight: FontWeight.bold),textAlign: TextAlign.center,),
                         Padding(
@@ -236,7 +236,7 @@ class Mezeler extends StatelessWidget {
                       children: [
                         Padding(
                           padding: const EdgeInsets.symmetric(horizontal: 28.0),
-                          child: SizedBox(width: 150,child: Image.asset("images/meze.png")),
+                          child: SizedBox(width: 150,child: Image.asset("images/cacik.jpeg")),
                         ),
                         Text("CACIK",style: TextStyle(fontFamily: "Georgia",fontSize: 15,color: Colors.white, fontWeight: FontWeight.bold),textAlign: TextAlign.center,),
                         Padding(
@@ -260,7 +260,7 @@ class Mezeler extends StatelessWidget {
                       children: [
                         Padding(
                           padding: const EdgeInsets.symmetric(horizontal: 28.0),
-                          child: SizedBox(width: 150,child: Image.asset("images/meze.png")),
+                          child: SizedBox(width: 150,child: Image.asset("images/havuctarator.jpeg")),
                         ),
                         Text("HAVUÇ TARATOR",style: TextStyle(fontFamily: "Georgia",fontSize: 15,color: Colors.white, fontWeight: FontWeight.bold),textAlign: TextAlign.center,),
                         Padding(

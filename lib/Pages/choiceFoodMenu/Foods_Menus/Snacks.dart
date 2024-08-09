@@ -40,10 +40,10 @@ class Snacks extends StatelessWidget {
                       mainAxisSize: MainAxisSize.min,
                       children: [
                         SizedBox(
-                          width: 300,
+                          width: 150,
                           child: Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: Image.asset("images/sepetsicak.png",fit: BoxFit.contain,),
+                            child: Image.asset("images/sicaksepeti.jpeg",fit: BoxFit.contain,),
                           ),
                         ),
                         Text(
@@ -140,7 +140,7 @@ class Snacks extends StatelessWidget {
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
-                        SizedBox(width: 150,child: Image.asset("images/sigaraboregi.png")),
+                        SizedBox(width: 150,child: Image.asset("images/sigaraborek.jpeg")),
                         Row(
                           children: [
                             Padding(

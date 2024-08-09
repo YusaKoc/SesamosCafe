@@ -77,7 +77,7 @@ class ColdDrinkPage extends StatelessWidget {
                       children: [
                         Padding(
                           padding: const EdgeInsets.symmetric(horizontal: 28.0),
-                          child: SizedBox(width: 110,child: Image.asset("images/icetea.png",fit: BoxFit.contain,)),
+                          child: SizedBox(width: 150,child: Image.asset("images/icetea.jpeg",fit: BoxFit.contain,)),
                         ),
                         Text("ICE TEA",style: TextStyle(fontSize: 15,color: Colors.white , fontWeight: FontWeight.bold,fontFamily: "Georgia",)),
                         Text(
@@ -158,7 +158,7 @@ class ColdDrinkPage extends StatelessWidget {
                       children: [
                         Padding(
                           padding: const EdgeInsets.symmetric(horizontal: 28.0),
-                          child: SizedBox(width: 120,child: Image.asset("images/meyvesuyu.png")),
+                          child: SizedBox(width: 120,child: Image.asset("images/meyveSuyu.jpeg")),
                         ),
                         Text("MEYVE SUYU",style: TextStyle(fontSize: 15,color: Colors.white, fontWeight: FontWeight.bold,fontFamily: "Georgia",),textAlign: TextAlign.center),
                         Text(
@@ -191,7 +191,7 @@ class ColdDrinkPage extends StatelessWidget {
                       children: [
                         Padding(
                           padding: const EdgeInsets.all(8.0),
-                          child: SizedBox(width: 120,child: Image.asset("images/su.avif")),
+                          child: SizedBox(width: 150,child: Image.asset("images/su.jpeg")),
                         ),
                         Text("SU",style: TextStyle(fontSize: 15,color: Colors.white, fontWeight: FontWeight.bold,fontFamily: "Georgia",),textAlign: TextAlign.center,),
                         Padding(
@@ -215,7 +215,7 @@ class ColdDrinkPage extends StatelessWidget {
                       children: [
                         Padding(
                           padding: const EdgeInsets.symmetric(horizontal: 28.0),
-                          child: SizedBox(width: 120,child: Image.asset("images/soda.png")),
+                          child: SizedBox(width: 120,child: Image.asset("images/sadeSoda.jpeg")),
                         ),
                         Text("SODA",style: TextStyle(fontSize: 15,color: Colors.white, fontWeight: FontWeight.bold,fontFamily: "Georgia",),textAlign: TextAlign.center,),
                         Padding(
@@ -239,7 +239,7 @@ class ColdDrinkPage extends StatelessWidget {
                       children: [
                         Padding(
                           padding: const EdgeInsets.symmetric(horizontal: 28.0),
-                          child: SizedBox(width: 150,child: Image.asset("images/meyvelisoda.png")),
+                          child: SizedBox(width: 150,child: Image.asset("images/meyvSoda.jpeg")),
                         ),
                         Text("MEYVELİ SODA",style: TextStyle(fontSize: 15,color: Colors.white, fontWeight: FontWeight.bold,fontFamily: "Georgia",),textAlign: TextAlign.center,),
                         Text(

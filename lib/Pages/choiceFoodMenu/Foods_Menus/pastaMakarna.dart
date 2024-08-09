@@ -43,7 +43,7 @@ class Pastas extends StatelessWidget {
                           width: 150,
                           child: Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: Image.asset("images/penne.png",fit: BoxFit.contain,),
+                            child: Image.asset("images/penneAlArabiata.jpeg",fit: BoxFit.contain,),
                           ),
                         ),
                         Text(
@@ -195,7 +195,7 @@ class Pastas extends StatelessWidget {
                       children: [
                         SizedBox(width: 150,child: Padding(
                           padding: const EdgeInsets.all(8.0),
-                          child: Image.asset("images/napolitan.png"),
+                          child: Image.asset("images/bolonezspag.jpeg"),
                         )),
                         Padding(
                           padding: const EdgeInsets.symmetric(horizontal: 18.0),

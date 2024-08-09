@@ -68,7 +68,7 @@ class DesertsMenu extends StatelessWidget {
                       children: [
                         Padding(
                           padding: const EdgeInsets.symmetric(horizontal: 28.0),
-                          child: SizedBox(width: 150,child: Image.asset("images/fistiklipasta.png",fit: BoxFit.contain,)),
+                          child: SizedBox(width: 150,child: Image.asset("images/fistikliPasta.jpeg",fit: BoxFit.contain,)),
                         ),
                         Text("FISTIKLI PASTA",style: TextStyle(fontFamily: "Georgia",fontSize: 15,color: Colors.white , fontWeight: FontWeight.bold)),
                         Padding(
@@ -116,9 +116,9 @@ class DesertsMenu extends StatelessWidget {
                       children: [
                         Padding(
                           padding: const EdgeInsets.symmetric(horizontal: 28.0),
-                          child: SizedBox(width: 150,child: Image.asset("images/profiterol.png")),
+                          child: SizedBox(width: 150,child: Image.asset("images/profiterolPasta.jpeg")),
                         ),
-                        Text("PROFİTEROL",style: TextStyle(fontFamily: "Georgia",fontSize: 15,color: Colors.white, fontWeight: FontWeight.bold),textAlign: TextAlign.center,),
+                        Text("PROFİTEROL PASTA",style: TextStyle(fontFamily: "Georgia",fontSize: 15,color: Colors.white, fontWeight: FontWeight.bold),textAlign: TextAlign.center,),
                         Padding(
                           padding: const EdgeInsets.symmetric(vertical: 8.0),
                           child: ElevatedButton(

@@ -42,10 +42,10 @@ class SeaFood extends StatelessWidget {
                         Padding(
                           padding: const EdgeInsets.symmetric(horizontal: 28.0),
                           child: SizedBox(
-                            width: 150,
+                            width: 110,
                             child: Padding(
                               padding: const EdgeInsets.all(8.0),
-                              child: Image.asset("images/levrek.png",fit: BoxFit.contain,),
+                              child: Image.asset("images/levrek.jpeg",fit: BoxFit.contain,),
                             ),
                           ),
                         ),
@@ -71,7 +71,7 @@ class SeaFood extends StatelessWidget {
                       children: [
                         Padding(
                           padding: const EdgeInsets.symmetric(horizontal: 28.0),
-                          child: SizedBox(width: 150,child: Image.asset("images/levrek.png",fit: BoxFit.contain,)),
+                          child: SizedBox(width: 150,child: Image.asset("images/cupra.jpeg",fit: BoxFit.contain,)),
                         ),
                         Text("ÇİPURA",style: TextStyle(fontFamily: "Georgia",fontSize: 15,color: Colors.white , fontWeight: FontWeight.bold)),
                         Padding(
@@ -119,7 +119,7 @@ class SeaFood extends StatelessWidget {
                       children: [
                         Padding(
                           padding: const EdgeInsets.symmetric(horizontal: 28.0),
-                          child: SizedBox(width: 150,child: Image.asset("images/karides.png")),
+                          child: SizedBox(width: 150,child: Image.asset("images/karides.jpeg")),
                         ),
                         Text("KARİDES",style: TextStyle(fontFamily: "Georgia",fontSize: 15,color: Colors.white, fontWeight: FontWeight.bold),textAlign: TextAlign.center,),
                         Padding(
@@ -143,7 +143,7 @@ class SeaFood extends StatelessWidget {
                       children: [
                         Padding(
                           padding: const EdgeInsets.symmetric(horizontal: 28.0),
-                          child: SizedBox(width: 150,child: Image.asset("images/karides.png")),
+                          child: SizedBox(width: 150,child: Image.asset("images/kalamar.jpeg")),
                         ),
                         Text("KALAMAR",style: TextStyle(fontFamily: "Georgia",fontSize: 15,color: Colors.white, fontWeight: FontWeight.bold),textAlign: TextAlign.center,),
                         Padding(
@@ -184,6 +184,170 @@ class SeaFood extends StatelessWidget {
                             style: ElevatedButton.styleFrom(backgroundColor: Colors.white,shadowColor: Colors.orange),
                             onPressed: (){},
                             child: Text(" 180 ₺",style: TextStyle(fontFamily: "Georgia",color: Colors.orangeAccent,fontWeight:FontWeight.bold ),),
+                          ),
+                        )
+                      ],
+                    ),
+                  ),
+                ),
+                Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Card(
+                    color: Colors.orange,
+                    child: Column(
+                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                      children: [
+                        Padding(
+                          padding: const EdgeInsets.symmetric(horizontal: 28.0),
+                          child: SizedBox(width: 180,child: Image.asset("images/hamsitava.jpeg")),
+                        ),
+                        Text("HAMSİ",style: TextStyle(fontSize: 15,color: Colors.white, fontWeight: FontWeight.bold,fontFamily: "Georgia",),textAlign: TextAlign.center,),
+                        Padding(
+                          padding: const EdgeInsets.symmetric(vertical: 8.0),
+                          child: Row(
+                            children: [
+                              Padding(
+                                padding: const EdgeInsets.symmetric(horizontal: 8.0),
+                                child: Text("TAVA",style: TextStyle(color: Colors.black,fontWeight:FontWeight.bold,fontFamily: "Georgia", ),),
+                              ),
+                              ElevatedButton(
+                                style: ElevatedButton.styleFrom(backgroundColor: Colors.white,shadowColor: Colors.orange),
+                                onPressed: (){},
+                                child: Text(" 650 ₺",style: TextStyle(color: Colors.orangeAccent,fontWeight:FontWeight.bold,fontFamily: "Georgia", ),),
+                              ),
+                              Padding(
+                                padding: const EdgeInsets.symmetric(horizontal: 8.0),
+                                child: Text("PORSİYON",style: TextStyle(color: Colors.black,fontWeight:FontWeight.bold,fontFamily: "Georgia", ),),
+                              ),
+                              ElevatedButton(
+                                style: ElevatedButton.styleFrom(backgroundColor: Colors.white,shadowColor: Colors.orange),
+                                onPressed: (){},
+                                child: Text(" 220 ₺",style: TextStyle(color: Colors.orangeAccent,fontWeight:FontWeight.bold,fontFamily: "Georgia", ),),
+                              ),
+                            ],
+                          ),
+                        )
+                      ],
+                    ),
+                  ),
+                ),
+                Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Card(
+                    color: Colors.orange,
+                    child: Column(
+                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                      children: [
+                        Padding(
+                          padding: const EdgeInsets.symmetric(horizontal: 28.0),
+                          child: SizedBox(width: 180,child: Image.asset("images/mezgit.jpeg")),
+                        ),
+                        Text("MEZGİT",style: TextStyle(fontSize: 15,color: Colors.white, fontWeight: FontWeight.bold,fontFamily: "Georgia",),textAlign: TextAlign.center,),
+                        Padding(
+                          padding: const EdgeInsets.symmetric(vertical: 8.0),
+                          child: Row(
+                            children: [
+                              Padding(
+                                padding: const EdgeInsets.symmetric(horizontal: 8.0),
+                                child: Text("TAVA",style: TextStyle(color: Colors.black,fontWeight:FontWeight.bold,fontFamily: "Georgia", ),),
+                              ),
+                              ElevatedButton(
+                                style: ElevatedButton.styleFrom(backgroundColor: Colors.white,shadowColor: Colors.orange),
+                                onPressed: (){},
+                                child: Text(" 750 ₺",style: TextStyle(color: Colors.orangeAccent,fontWeight:FontWeight.bold,fontFamily: "Georgia", ),),
+                              ),
+                              Padding(
+                                padding: const EdgeInsets.symmetric(horizontal: 8.0),
+                                child: Text("PORSİYON",style: TextStyle(color: Colors.black,fontWeight:FontWeight.bold,fontFamily: "Georgia", ),),
+                              ),
+                              ElevatedButton(
+                                style: ElevatedButton.styleFrom(backgroundColor: Colors.white,shadowColor: Colors.orange),
+                                onPressed: (){},
+                                child: Text(" 250 ₺",style: TextStyle(color: Colors.orangeAccent,fontWeight:FontWeight.bold,fontFamily: "Georgia", ),),
+                              ),
+                            ],
+                          ),
+                        )
+                      ],
+                    ),
+                  ),
+                ),
+                Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Card(
+                    color: Colors.orange,
+                    child: Column(
+                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                      children: [
+                        Padding(
+                          padding: const EdgeInsets.symmetric(horizontal: 28.0),
+                          child: SizedBox(width: 180,child: Image.asset("images/istavrit.jpeg")),
+                        ),
+                        Text("İSTAVRİT",style: TextStyle(fontSize: 15,color: Colors.white, fontWeight: FontWeight.bold,fontFamily: "Georgia",),textAlign: TextAlign.center,),
+                        Padding(
+                          padding: const EdgeInsets.symmetric(vertical: 8.0),
+                          child: Row(
+                            children: [
+                              Padding(
+                                padding: const EdgeInsets.symmetric(horizontal: 8.0),
+                                child: Text("TAVA",style: TextStyle(color: Colors.black,fontWeight:FontWeight.bold,fontFamily: "Georgia", ),),
+                              ),
+                              ElevatedButton(
+                                style: ElevatedButton.styleFrom(backgroundColor: Colors.white,shadowColor: Colors.orange),
+                                onPressed: (){},
+                                child: Text(" 620 ₺",style: TextStyle(color: Colors.orangeAccent,fontWeight:FontWeight.bold,fontFamily: "Georgia", ),),
+                              ),
+                              Padding(
+                                padding: const EdgeInsets.symmetric(horizontal: 8.0),
+                                child: Text("PORSİYON",style: TextStyle(color: Colors.black,fontWeight:FontWeight.bold,fontFamily: "Georgia", ),),
+                              ),
+                              ElevatedButton(
+                                style: ElevatedButton.styleFrom(backgroundColor: Colors.white,shadowColor: Colors.orange),
+                                onPressed: (){},
+                                child: Text(" 220 ₺",style: TextStyle(color: Colors.orangeAccent,fontWeight:FontWeight.bold,fontFamily: "Georgia", ),),
+                              ),
+                            ],
+                          ),
+                        )
+                      ],
+                    ),
+                  ),
+                ),
+                Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Card(
+                    color: Colors.orange,
+                    child: Column(
+                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                      children: [
+                        Padding(
+                          padding: const EdgeInsets.symmetric(horizontal: 28.0),
+                          child: SizedBox(width: 180,child: Image.asset("images/barbun.jpeg")),
+                        ),
+                        Text("BARBUN",style: TextStyle(fontSize: 15,color: Colors.white, fontWeight: FontWeight.bold,fontFamily: "Georgia",),textAlign: TextAlign.center,),
+                        Padding(
+                          padding: const EdgeInsets.symmetric(vertical: 8.0),
+                          child: Row(
+                            children: [
+                              Padding(
+                                padding: const EdgeInsets.symmetric(horizontal: 8.0),
+                                child: Text("TAVA",style: TextStyle(color: Colors.black,fontWeight:FontWeight.bold,fontFamily: "Georgia", ),),
+                              ),
+                              ElevatedButton(
+                                style: ElevatedButton.styleFrom(backgroundColor: Colors.white,shadowColor: Colors.orange),
+                                onPressed: (){},
+                                child: Text(" 900 ₺",style: TextStyle(color: Colors.orangeAccent,fontWeight:FontWeight.bold,fontFamily: "Georgia", ),),
+                              ),
+                              Padding(
+                                padding: const EdgeInsets.symmetric(horizontal: 8.0),
+                                child: Text("PORSİYON",style: TextStyle(color: Colors.black,fontWeight:FontWeight.bold,fontFamily: "Georgia", ),),
+                              ),
+                              ElevatedButton(
+                                style: ElevatedButton.styleFrom(backgroundColor: Colors.white,shadowColor: Colors.orange),
+                                onPressed: (){},
+                                child: Text(" 300 ₺",style: TextStyle(color: Colors.orangeAccent,fontWeight:FontWeight.bold,fontFamily: "Georgia", ),),
+                              ),
+                            ],
                           ),
                         )
                       ],

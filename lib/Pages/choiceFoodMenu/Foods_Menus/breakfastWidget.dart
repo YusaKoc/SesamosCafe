@@ -43,7 +43,7 @@ class Breakfast extends StatelessWidget {
                             width: 135,
                             child: Padding(
                               padding: const EdgeInsets.all(8.0),
-                              child: Image.asset("images/kahvalti.png.",fit: BoxFit.contain,),
+                              child: Image.asset("images/serpme.jpeg",fit: BoxFit.contain,),
                             ),
                           ),
                           Text(
@@ -57,7 +57,7 @@ class Breakfast extends StatelessWidget {
                             textAlign: TextAlign.center,
                           ),
                           Text(
-                            "Domates, Salatalık, Yeşillik, Siyah ve Yeşil Zeytin, Beyaz ve Kaşar Peynir, \n Baharatlı Lor Peyniri,Salam, Bal, Tereyağ, Reçel Çeşitleri, Cips,\n Omlet, Sosis, Sigara Böreği, Domates Biber Sosu, Sınırsız Çay.",
+                            "Domates, salatalık, yeşillik, siyah ve yeşil zeytin, beyaz peynir, kaşar peyniri,\n çeçil peyniri,burgu peynir, bal, tereyağı, acuka, reçel çeşitleri, patates kızartması,\n sosis, sigara böreği, omlet, menemen, sınırsız çay",
                             style: TextStyle(
                               fontFamily: "Georgia",
                               fontSize: 10,
@@ -84,7 +84,7 @@ class Breakfast extends StatelessWidget {
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                         children: [
-                          SizedBox(width: 130,child: Image.asset("images/kahvalti.png",fit: BoxFit.contain,)),
+                          SizedBox(width: 130,child: Image.asset("images/kahvalti_tabak.jpeg",fit: BoxFit.contain,)),
                           Row(
                             children: [
                               Text("KAHVALTI TABAĞI",style: TextStyle(fontSize: 15,color: Colors.white , fontWeight: FontWeight.bold,fontFamily: "Georgia",)),
@@ -396,7 +396,7 @@ class Breakfast extends StatelessWidget {
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                         children: [
-                          SizedBox(width: 150,child: Image.asset("images/kuymak.png")),
+                          SizedBox(width: 150,child: Image.asset("images/kuymak.jpeg")),
                           Padding(
                             padding: const EdgeInsets.symmetric(horizontal: 53.0),
                             child: Text("KUYMAK",style: TextStyle(fontSize: 15,color: Colors.white, fontWeight: FontWeight.bold,fontFamily: "Georgia",),textAlign: TextAlign.center,),
