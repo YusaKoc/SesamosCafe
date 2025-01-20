@@ -79,7 +79,7 @@ class Bottles extends StatelessWidget {
                                 ),
                                 onChanged: (String? newValue){
                                 },
-                                items: <String>["Fiyatları Göster ","YENİ RAKI",'20cl - 550 TL', '35cl - 850 TL', '50cl - 1150 TL','70cl - 1500 TL','100cl - 1900 TL']
+                                items: <String>["Fiyatları Göster ","YENİ RAKI",'20cl - 750 TL', '35cl - 1100 TL', '50cl - 1400 TL','70cl - 1900 TL','100cl - 2400 TL']
                                     .map<DropdownMenuItem<String>>((String value) {
                                   return DropdownMenuItem<String>(
                                     value: value,
@@ -297,7 +297,7 @@ class Bottles extends StatelessWidget {
                                 ),
                                 onChanged: (String? newValue){
                                 },
-                                items: <String>["Fiyatları Göster ",'20cl - Stokta Yok', '35cl - Stokta Yok', '50cl - Stokta Yok','70cl - 900 TL','100cl - Stokta Yok']
+                                items: <String>["Fiyatları Göster ",'20cl - Stokta Yok', '35cl - Stokta Yok', '50cl - Stokta Yok','70cl - 1250 TL','100cl - Stokta Yok']
                                     .map<DropdownMenuItem<String>>((String value) {
                                   return DropdownMenuItem<String>(
                                     value: value,
