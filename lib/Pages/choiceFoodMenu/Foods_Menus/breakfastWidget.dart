@@ -108,7 +108,7 @@ class Breakfast extends StatelessWidget {
                             child: ElevatedButton(
                               style: ElevatedButton.styleFrom(backgroundColor: Colors.white,shadowColor: Colors.orange),
                               onPressed: (){},
-                              child: Text(" 300 ₺",style: TextStyle(color: Colors.orangeAccent,fontWeight:FontWeight.bold,fontFamily: "Georgia", ),),
+                              child: Text(" 350 ₺",style: TextStyle(color: Colors.orangeAccent,fontWeight:FontWeight.bold,fontFamily: "Georgia", ),),
                             ),
                           )
                         ],

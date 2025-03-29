@@ -52,7 +52,7 @@ class DesertsMenu extends StatelessWidget {
                           child: ElevatedButton(
                             style: ElevatedButton.styleFrom(backgroundColor: Colors.white,shadowColor: Colors.orange),
                             onPressed: (){},
-                            child: Text(" 130 ₺",style: TextStyle(fontFamily: "Georgia",color: Colors.orangeAccent,fontWeight:FontWeight.bold ),),
+                            child: Text(" 140 ₺",style: TextStyle(fontFamily: "Georgia",color: Colors.orangeAccent,fontWeight:FontWeight.bold ),),
                           ),
                         )
                       ],

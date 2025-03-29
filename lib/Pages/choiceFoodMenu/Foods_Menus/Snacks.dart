@@ -68,7 +68,7 @@ class Snacks extends StatelessWidget {
                           child: ElevatedButton(
                             style: ElevatedButton.styleFrom(backgroundColor: Colors.white,shadowColor: Colors.orange),
                             onPressed: (){},
-                            child: Text(" 200 ₺",style: TextStyle(fontFamily: "Georgia",color: Colors.orangeAccent,fontWeight:FontWeight.bold ),),
+                            child: Text(" 220 ₺",style: TextStyle(fontFamily: "Georgia",color: Colors.orangeAccent,fontWeight:FontWeight.bold ),),
                           ),
                         )
                       ],
@@ -97,7 +97,7 @@ class Snacks extends StatelessWidget {
                           child: ElevatedButton(
                             style: ElevatedButton.styleFrom(backgroundColor: Colors.white,shadowColor: Colors.orange),
                             onPressed: (){},
-                            child: Text(" 250 ₺",style: TextStyle(fontFamily: "Georgia",color: Colors.orangeAccent,fontWeight:FontWeight.bold ),),
+                            child: Text(" 300 ₺",style: TextStyle(fontFamily: "Georgia",color: Colors.orangeAccent,fontWeight:FontWeight.bold ),),
                           ),
                         )
                       ],
@@ -126,7 +126,7 @@ class Snacks extends StatelessWidget {
                           child: ElevatedButton(
                             style: ElevatedButton.styleFrom(backgroundColor: Colors.white,shadowColor: Colors.orange),
                             onPressed: (){},
-                            child: Text(" 140 ₺",style: TextStyle(fontFamily: "Georgia",color: Colors.orangeAccent,fontWeight:FontWeight.bold ),),
+                            child: Text(" 150 ₺",style: TextStyle(fontFamily: "Georgia",color: Colors.orangeAccent,fontWeight:FontWeight.bold ),),
                           ),
                         )
                       ],

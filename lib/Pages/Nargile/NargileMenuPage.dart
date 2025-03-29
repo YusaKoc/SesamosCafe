@@ -108,7 +108,7 @@ class NargileMenuPage extends StatelessWidget {
                                 }
                               );
                             },
-                            child: Text("AROMALARI GÖSTER - 350 TL",style: TextStyle(fontFamily: "Georgia",color: Colors.orangeAccent,fontWeight:FontWeight.bold ),),
+                            child: Text("AROMALARI GÖSTER - 400 TL",style: TextStyle(fontFamily: "Georgia",color: Colors.orangeAccent,fontWeight:FontWeight.bold ),),
                           ),
                         )
                       ],
@@ -175,7 +175,7 @@ class NargileMenuPage extends StatelessWidget {
                                   }
                               );
                             },
-                            child: Text("AROMALARI GÖSTER - 350 TL",style: TextStyle(fontFamily: "Georgia",color: Colors.orangeAccent,fontWeight:FontWeight.bold ),),
+                            child: Text("AROMALARI GÖSTER - 400 TL",style: TextStyle(fontFamily: "Georgia",color: Colors.orangeAccent,fontWeight:FontWeight.bold ),),
                           ),
                         )
                       ],
@@ -244,7 +244,7 @@ class NargileMenuPage extends StatelessWidget {
                                   }
                               );
                             },
-                            child: Text("AROMALARI GÖSTER - 350 TL",style: TextStyle(fontFamily: "Georgia",color: Colors.orangeAccent,fontWeight:FontWeight.bold ),),
+                            child: Text("AROMALARI GÖSTER - 400 TL",style: TextStyle(fontFamily: "Georgia",color: Colors.orangeAccent,fontWeight:FontWeight.bold ),),
                           ),
                         )
                       ],
@@ -308,7 +308,7 @@ class NargileMenuPage extends StatelessWidget {
                                   }
                               );
                             },
-                            child: Text("AROMALARI GÖSTER - 350 TL",style: TextStyle(fontFamily: "Georgia",color: Colors.orangeAccent,fontWeight:FontWeight.bold ),),
+                            child: Text("AROMALARI GÖSTER - 400 TL",style: TextStyle(fontFamily: "Georgia",color: Colors.orangeAccent,fontWeight:FontWeight.bold ),),
                           ),
                         )
                       ],

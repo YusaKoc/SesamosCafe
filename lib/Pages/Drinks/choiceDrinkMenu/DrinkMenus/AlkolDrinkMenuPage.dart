@@ -61,7 +61,7 @@ class AlkolDrinkPage extends StatelessWidget {
                           child: ElevatedButton(
                             style: ElevatedButton.styleFrom(backgroundColor: Colors.white,shadowColor: Colors.orange),
                             onPressed: (){},
-                            child: Text(" 180 ₺",style: TextStyle(color: Colors.orangeAccent,fontWeight:FontWeight.bold,fontFamily: "Georgia", ),),
+                            child: Text(" 200 ₺",style: TextStyle(color: Colors.orangeAccent,fontWeight:FontWeight.bold,fontFamily: "Georgia", ),),
                           ),
                         )
                       ],
@@ -85,7 +85,7 @@ class AlkolDrinkPage extends StatelessWidget {
                           child: ElevatedButton(
                             style: ElevatedButton.styleFrom(backgroundColor: Colors.white,shadowColor: Colors.orange),
                             onPressed: (){},
-                            child: Text(" 180 ₺",style: TextStyle(color: Colors.orangeAccent,fontWeight:FontWeight.bold,fontFamily: "Georgia", ),),
+                            child: Text(" 200 ₺",style: TextStyle(color: Colors.orangeAccent,fontWeight:FontWeight.bold,fontFamily: "Georgia", ),),
                           ),
                         )
                       ],
@@ -109,7 +109,7 @@ class AlkolDrinkPage extends StatelessWidget {
                           child: ElevatedButton(
                             style: ElevatedButton.styleFrom(backgroundColor: Colors.white,shadowColor: Colors.orange),
                             onPressed: (){},
-                            child: Text(" 190 ₺",style: TextStyle(color: Colors.orangeAccent,fontWeight:FontWeight.bold,fontFamily: "Georgia", ),),
+                            child: Text(" 220 ₺",style: TextStyle(color: Colors.orangeAccent,fontWeight:FontWeight.bold,fontFamily: "Georgia", ),),
                           ),
                         )
                       ],
@@ -133,7 +133,7 @@ class AlkolDrinkPage extends StatelessWidget {
                           child: ElevatedButton(
                             style: ElevatedButton.styleFrom(backgroundColor: Colors.white,shadowColor: Colors.orange),
                             onPressed: (){},
-                            child: Text(" 200 ₺",style: TextStyle(color: Colors.orangeAccent,fontWeight:FontWeight.bold,fontFamily: "Georgia", ),),
+                            child: Text(" 230 ₺",style: TextStyle(color: Colors.orangeAccent,fontWeight:FontWeight.bold,fontFamily: "Georgia", ),),
                           ),
                         )
                       ],
@@ -157,7 +157,7 @@ class AlkolDrinkPage extends StatelessWidget {
                           child: ElevatedButton(
                             style: ElevatedButton.styleFrom(backgroundColor: Colors.white,shadowColor: Colors.orange),
                             onPressed: (){},
-                            child: Text(" 190 ₺",style: TextStyle(color: Colors.orangeAccent,fontWeight:FontWeight.bold,fontFamily: "Georgia", ),),
+                            child: Text(" 220 ₺",style: TextStyle(color: Colors.orangeAccent,fontWeight:FontWeight.bold,fontFamily: "Georgia", ),),
                           ),
                         )
                       ],
@@ -181,7 +181,7 @@ class AlkolDrinkPage extends StatelessWidget {
                           child: ElevatedButton(
                             style: ElevatedButton.styleFrom(backgroundColor: Colors.white,shadowColor: Colors.orange),
                             onPressed: (){},
-                            child: Text(" 190 ₺",style: TextStyle(color: Colors.orangeAccent,fontWeight:FontWeight.bold,fontFamily: "Georgia", ),),
+                            child: Text(" 220 ₺",style: TextStyle(color: Colors.orangeAccent,fontWeight:FontWeight.bold,fontFamily: "Georgia", ),),
                           ),
                         )
                       ],
@@ -205,7 +205,7 @@ class AlkolDrinkPage extends StatelessWidget {
                           child: ElevatedButton(
                             style: ElevatedButton.styleFrom(backgroundColor: Colors.white,shadowColor: Colors.orange),
                             onPressed: (){},
-                            child: Text(" 250 ₺",style: TextStyle(color: Colors.orangeAccent,fontWeight:FontWeight.bold,fontFamily: "Georgia", ),),
+                            child: Text(" 300 ₺",style: TextStyle(color: Colors.orangeAccent,fontWeight:FontWeight.bold,fontFamily: "Georgia", ),),
                           ),
                         )
                       ],
@@ -229,7 +229,7 @@ class AlkolDrinkPage extends StatelessWidget {
                           child: ElevatedButton(
                             style: ElevatedButton.styleFrom(backgroundColor: Colors.white,shadowColor: Colors.orange),
                             onPressed: (){},
-                            child: Text(" 250 ₺",style: TextStyle(color: Colors.orangeAccent,fontWeight:FontWeight.bold,fontFamily: "Georgia", ),),
+                            child: Text(" 275 ₺",style: TextStyle(color: Colors.orangeAccent,fontWeight:FontWeight.bold,fontFamily: "Georgia", ),),
                           ),
                         )
                       ],
@@ -253,7 +253,7 @@ class AlkolDrinkPage extends StatelessWidget {
                           child: ElevatedButton(
                             style: ElevatedButton.styleFrom(backgroundColor: Colors.white,shadowColor: Colors.orange),
                             onPressed: (){},
-                            child: Text(" 220 ₺",style: TextStyle(color: Colors.orangeAccent,fontWeight:FontWeight.bold,fontFamily: "Georgia", ),),
+                            child: Text(" 240 ₺",style: TextStyle(color: Colors.orangeAccent,fontWeight:FontWeight.bold,fontFamily: "Georgia", ),),
                           ),
                         )
                       ],
