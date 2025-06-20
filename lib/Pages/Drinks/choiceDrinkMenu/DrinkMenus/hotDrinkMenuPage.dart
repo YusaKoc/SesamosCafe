@@ -110,7 +110,7 @@ class HotDrinkPage extends StatelessWidget {
                           child: ElevatedButton(
                             style: ElevatedButton.styleFrom(backgroundColor: Colors.white,shadowColor: Colors.orange),
                             onPressed: (){},
-                            child: Text(" 90 ₺",style: TextStyle(color: Colors.orangeAccent,fontWeight:FontWeight.bold,fontFamily: "Georgia", ),),
+                            child: Text(" 100 ₺",style: TextStyle(color: Colors.orangeAccent,fontWeight:FontWeight.bold,fontFamily: "Georgia", ),),
                           ),
                         )
                       ],
@@ -151,7 +151,7 @@ class HotDrinkPage extends StatelessWidget {
                           child: ElevatedButton(
                             style: ElevatedButton.styleFrom(backgroundColor: Colors.white,shadowColor: Colors.orange),
                             onPressed: (){},
-                            child: Text(" 90 ₺",style: TextStyle(color: Colors.orangeAccent,fontWeight:FontWeight.bold,fontFamily: "Georgia", ),),
+                            child: Text(" 100 ₺",style: TextStyle(color: Colors.orangeAccent,fontWeight:FontWeight.bold,fontFamily: "Georgia", ),),
                           ),
                         )
                       ],
@@ -207,7 +207,7 @@ class HotDrinkPage extends StatelessWidget {
                           child: ElevatedButton(
                             style: ElevatedButton.styleFrom(backgroundColor: Colors.white,shadowColor: Colors.orange),
                             onPressed: (){},
-                            child: Text(" 60 ₺",style: TextStyle(color: Colors.orangeAccent,fontWeight:FontWeight.bold,fontFamily: "Georgia", ),),
+                            child: Text(" 80 ₺",style: TextStyle(color: Colors.orangeAccent,fontWeight:FontWeight.bold,fontFamily: "Georgia", ),),
                           ),
                         )
                       ],
@@ -231,7 +231,7 @@ class HotDrinkPage extends StatelessWidget {
                           child: ElevatedButton(
                             style: ElevatedButton.styleFrom(backgroundColor: Colors.white,shadowColor: Colors.orange),
                             onPressed: (){},
-                            child: Text(" 70 ₺",style: TextStyle(color: Colors.orangeAccent,fontWeight:FontWeight.bold,fontFamily: "Georgia", ),),
+                            child: Text(" 85 ₺",style: TextStyle(color: Colors.orangeAccent,fontWeight:FontWeight.bold,fontFamily: "Georgia", ),),
                           ),
                         )
                       ],

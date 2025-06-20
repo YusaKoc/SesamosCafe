@@ -146,7 +146,7 @@ class Breakfast extends StatelessWidget {
                             child: ElevatedButton(
                               style: ElevatedButton.styleFrom(backgroundColor: Colors.white,shadowColor: Colors.orange),
                               onPressed: (){},
-                              child: Text(" 150 ₺",style: TextStyle(color: Colors.orangeAccent,fontWeight:FontWeight.bold,fontFamily: "Georgia", ),),
+                              child: Text(" 180 ₺",style: TextStyle(color: Colors.orangeAccent,fontWeight:FontWeight.bold,fontFamily: "Georgia", ),),
                             ),
                           )
                         ],
@@ -184,7 +184,7 @@ class Breakfast extends StatelessWidget {
                             child: ElevatedButton(
                               style: ElevatedButton.styleFrom(backgroundColor: Colors.white,shadowColor: Colors.orange),
                               onPressed: (){},
-                              child: Text(" 150 ₺",style: TextStyle(color: Colors.orangeAccent,fontWeight:FontWeight.bold,fontFamily: "Georgia", ),),
+                              child: Text(" 180 ₺",style: TextStyle(color: Colors.orangeAccent,fontWeight:FontWeight.bold,fontFamily: "Georgia", ),),
                             ),
                           )
                         ],
@@ -213,7 +213,7 @@ class Breakfast extends StatelessWidget {
                             child: ElevatedButton(
                               style: ElevatedButton.styleFrom(backgroundColor: Colors.white,shadowColor: Colors.orange),
                               onPressed: (){},
-                              child: Text(" 150 ₺",style: TextStyle(color: Colors.orangeAccent,fontWeight:FontWeight.bold,fontFamily: "Georgia", ),),
+                              child: Text(" 180 ₺",style: TextStyle(color: Colors.orangeAccent,fontWeight:FontWeight.bold,fontFamily: "Georgia", ),),
                             ),
                           )
                         ],
@@ -242,7 +242,7 @@ class Breakfast extends StatelessWidget {
                             child: ElevatedButton(
                               style: ElevatedButton.styleFrom(backgroundColor: Colors.white,shadowColor: Colors.orange),
                               onPressed: (){},
-                              child: Text(" 100 ₺",style: TextStyle(color: Colors.orangeAccent,fontWeight:FontWeight.bold,fontFamily: "Georgia", ),),
+                              child: Text(" 130 ₺",style: TextStyle(color: Colors.orangeAccent,fontWeight:FontWeight.bold,fontFamily: "Georgia", ),),
                             ),
                           )
                         ],
@@ -271,7 +271,7 @@ class Breakfast extends StatelessWidget {
                             child: ElevatedButton(
                               style: ElevatedButton.styleFrom(backgroundColor: Colors.white,shadowColor: Colors.orange),
                               onPressed: (){},
-                              child: Text(" 120 ₺",style: TextStyle(color: Colors.orangeAccent,fontWeight:FontWeight.bold,fontFamily: "Georgia", ),),
+                              child: Text(" 160 ₺",style: TextStyle(color: Colors.orangeAccent,fontWeight:FontWeight.bold,fontFamily: "Georgia", ),),
                             ),
                           )
                         ],
@@ -300,7 +300,7 @@ class Breakfast extends StatelessWidget {
                             child: ElevatedButton(
                               style: ElevatedButton.styleFrom(backgroundColor: Colors.white,shadowColor: Colors.orange),
                               onPressed: (){},
-                              child: Text(" 140 ₺",style: TextStyle(color: Colors.orangeAccent,fontWeight:FontWeight.bold,fontFamily: "Georgia", ),),
+                              child: Text(" 180 ₺",style: TextStyle(color: Colors.orangeAccent,fontWeight:FontWeight.bold,fontFamily: "Georgia", ),),
                             ),
                           )
                         ],
@@ -329,7 +329,7 @@ class Breakfast extends StatelessWidget {
                             child: ElevatedButton(
                               style: ElevatedButton.styleFrom(backgroundColor: Colors.white,shadowColor: Colors.orange),
                               onPressed: (){},
-                              child: Text(" 100 ₺",style: TextStyle(color: Colors.orangeAccent,fontWeight:FontWeight.bold,fontFamily: "Georgia", ),),
+                              child: Text(" 130 ₺",style: TextStyle(color: Colors.orangeAccent,fontWeight:FontWeight.bold,fontFamily: "Georgia", ),),
                             ),
                           )
                         ],
@@ -358,7 +358,7 @@ class Breakfast extends StatelessWidget {
                             child: ElevatedButton(
                               style: ElevatedButton.styleFrom(backgroundColor: Colors.white,shadowColor: Colors.orange),
                               onPressed: (){},
-                              child: Text(" 120 ₺",style: TextStyle(color: Colors.orangeAccent,fontWeight:FontWeight.bold,fontFamily: "Georgia", ),),
+                              child: Text(" 150 ₺",style: TextStyle(color: Colors.orangeAccent,fontWeight:FontWeight.bold,fontFamily: "Georgia", ),),
                             ),
                           )
                         ],
@@ -382,7 +382,7 @@ class Breakfast extends StatelessWidget {
                             child: ElevatedButton(
                               style: ElevatedButton.styleFrom(backgroundColor: Colors.white,shadowColor: Colors.orange),
                               onPressed: (){},
-                              child: Text(" 120 ₺",style: TextStyle(color: Colors.orangeAccent,fontWeight:FontWeight.bold,fontFamily: "Georgia", ),),
+                              child: Text(" 150 ₺",style: TextStyle(color: Colors.orangeAccent,fontWeight:FontWeight.bold,fontFamily: "Georgia", ),),
                             ),
                           )
                         ],
@@ -406,7 +406,7 @@ class Breakfast extends StatelessWidget {
                             child: ElevatedButton(
                               style: ElevatedButton.styleFrom(backgroundColor: Colors.white,shadowColor: Colors.orange),
                               onPressed: (){},
-                              child: Text(" 180 ₺",style: TextStyle(color: Colors.orangeAccent,fontWeight:FontWeight.bold,fontFamily: "Georgia", ),),
+                              child: Text(" 200 ₺",style: TextStyle(color: Colors.orangeAccent,fontWeight:FontWeight.bold,fontFamily: "Georgia", ),),
                             ),
                           )
                         ],

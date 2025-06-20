@@ -9,7 +9,9 @@ class DesertsMenu extends StatelessWidget {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: [
-          SizedBox(height: 10,),
+          SizedBox(
+            height: 10,
+          ),
           ElevatedButton(
             onPressed: () {},
             child: Text(
@@ -43,16 +45,32 @@ class DesertsMenu extends StatelessWidget {
                           padding: const EdgeInsets.symmetric(horizontal: 28.0),
                           child: SizedBox(
                             width: 150,
-                            child: Image.asset("images/cheesecake.png",fit: BoxFit.contain,),
+                            child: Image.asset(
+                              "images/cheesecake.png",
+                              fit: BoxFit.contain,
+                            ),
                           ),
                         ),
-                        Text("CHEESECAKE",style: TextStyle(fontFamily: "Georgia",fontSize: 15,color: Colors.white , fontWeight: FontWeight.bold)),
+                        Text("CHEESECAKE",
+                            style: TextStyle(
+                                fontFamily: "Georgia",
+                                fontSize: 15,
+                                color: Colors.white,
+                                fontWeight: FontWeight.bold)),
                         Padding(
                           padding: const EdgeInsets.symmetric(vertical: 8.0),
                           child: ElevatedButton(
-                            style: ElevatedButton.styleFrom(backgroundColor: Colors.white,shadowColor: Colors.orange),
-                            onPressed: (){},
-                            child: Text(" 140 ₺",style: TextStyle(fontFamily: "Georgia",color: Colors.orangeAccent,fontWeight:FontWeight.bold ),),
+                            style: ElevatedButton.styleFrom(
+                                backgroundColor: Colors.white,
+                                shadowColor: Colors.orange),
+                            onPressed: () {},
+                            child: Text(
+                              " 175 ₺",
+                              style: TextStyle(
+                                  fontFamily: "Georgia",
+                                  color: Colors.orangeAccent,
+                                  fontWeight: FontWeight.bold),
+                            ),
                           ),
                         )
                       ],
@@ -68,15 +86,33 @@ class DesertsMenu extends StatelessWidget {
                       children: [
                         Padding(
                           padding: const EdgeInsets.symmetric(horizontal: 28.0),
-                          child: SizedBox(width: 150,child: Image.asset("images/fistikliPasta.jpeg",fit: BoxFit.contain,)),
+                          child: SizedBox(
+                              width: 150,
+                              child: Image.asset(
+                                "images/fistikliPasta.jpeg",
+                                fit: BoxFit.contain,
+                              )),
                         ),
-                        Text("FISTIKLI PASTA",style: TextStyle(fontFamily: "Georgia",fontSize: 15,color: Colors.white , fontWeight: FontWeight.bold)),
+                        Text("FISTIKLI PASTA",
+                            style: TextStyle(
+                                fontFamily: "Georgia",
+                                fontSize: 15,
+                                color: Colors.white,
+                                fontWeight: FontWeight.bold)),
                         Padding(
                           padding: const EdgeInsets.symmetric(vertical: 8.0),
                           child: ElevatedButton(
-                            style: ElevatedButton.styleFrom(backgroundColor: Colors.white,shadowColor: Colors.orange),
-                            onPressed: (){},
-                            child: Text(" 140 ₺",style: TextStyle(fontFamily: "Georgia",color: Colors.orangeAccent,fontWeight:FontWeight.bold ),),
+                            style: ElevatedButton.styleFrom(
+                                backgroundColor: Colors.white,
+                                shadowColor: Colors.orange),
+                            onPressed: () {},
+                            child: Text(
+                              " 175 ₺",
+                              style: TextStyle(
+                                  fontFamily: "Georgia",
+                                  color: Colors.orangeAccent,
+                                  fontWeight: FontWeight.bold),
+                            ),
                           ),
                         )
                       ],
@@ -92,15 +128,33 @@ class DesertsMenu extends StatelessWidget {
                       children: [
                         Padding(
                           padding: const EdgeInsets.symmetric(horizontal: 28.0),
-                          child: SizedBox(width: 150,child: Image.asset("images/tiramisu.png")),
+                          child: SizedBox(
+                              width: 150,
+                              child: Image.asset("images/tiramisu.png")),
                         ),
-                        Text("TİRAMİSU",style: TextStyle(fontFamily: "Georgia",fontSize: 15,color: Colors.white, fontWeight: FontWeight.bold),textAlign: TextAlign.center,),
+                        Text(
+                          "TİRAMİSU",
+                          style: TextStyle(
+                              fontFamily: "Georgia",
+                              fontSize: 15,
+                              color: Colors.white,
+                              fontWeight: FontWeight.bold),
+                          textAlign: TextAlign.center,
+                        ),
                         Padding(
                           padding: const EdgeInsets.symmetric(vertical: 8.0),
                           child: ElevatedButton(
-                            style: ElevatedButton.styleFrom(backgroundColor: Colors.white,shadowColor: Colors.orange),
-                            onPressed: (){},
-                            child: Text("130 ₺",style: TextStyle(fontFamily: "Georgia",color: Colors.orangeAccent,fontWeight:FontWeight.bold ),),
+                            style: ElevatedButton.styleFrom(
+                                backgroundColor: Colors.white,
+                                shadowColor: Colors.orange),
+                            onPressed: () {},
+                            child: Text(
+                              "Stokta Yok ₺",
+                              style: TextStyle(
+                                  fontFamily: "Georgia",
+                                  color: Colors.orangeAccent,
+                                  fontWeight: FontWeight.bold),
+                            ),
                           ),
                         )
                       ],
@@ -116,15 +170,34 @@ class DesertsMenu extends StatelessWidget {
                       children: [
                         Padding(
                           padding: const EdgeInsets.symmetric(horizontal: 28.0),
-                          child: SizedBox(width: 150,child: Image.asset("images/profiterolPasta.jpeg")),
+                          child: SizedBox(
+                              width: 150,
+                              child:
+                                  Image.asset("images/profiterolPasta.jpeg")),
                         ),
-                        Text("PROFİTEROL PASTA",style: TextStyle(fontFamily: "Georgia",fontSize: 15,color: Colors.white, fontWeight: FontWeight.bold),textAlign: TextAlign.center,),
+                        Text(
+                          "PROFİTEROL PASTA",
+                          style: TextStyle(
+                              fontFamily: "Georgia",
+                              fontSize: 15,
+                              color: Colors.white,
+                              fontWeight: FontWeight.bold),
+                          textAlign: TextAlign.center,
+                        ),
                         Padding(
                           padding: const EdgeInsets.symmetric(vertical: 8.0),
                           child: ElevatedButton(
-                            style: ElevatedButton.styleFrom(backgroundColor: Colors.white,shadowColor: Colors.orange),
-                            onPressed: (){},
-                            child: Text(" 140 ₺",style: TextStyle(fontFamily: "Georgia",color: Colors.orangeAccent,fontWeight:FontWeight.bold ),),
+                            style: ElevatedButton.styleFrom(
+                                backgroundColor: Colors.white,
+                                shadowColor: Colors.orange),
+                            onPressed: () {},
+                            child: Text(
+                              " 175 ₺",
+                              style: TextStyle(
+                                  fontFamily: "Georgia",
+                                  color: Colors.orangeAccent,
+                                  fontWeight: FontWeight.bold),
+                            ),
                           ),
                         )
                       ],
@@ -140,15 +213,33 @@ class DesertsMenu extends StatelessWidget {
                       children: [
                         Padding(
                           padding: const EdgeInsets.symmetric(horizontal: 28.0),
-                          child: SizedBox(width: 150,child: Image.asset("images/waffle.png")),
+                          child: SizedBox(
+                              width: 150,
+                              child: Image.asset("images/waffle.png")),
                         ),
-                        Text("WAFFLE",style: TextStyle(fontFamily: "Georgia",fontSize: 15,color: Colors.white, fontWeight: FontWeight.bold),textAlign: TextAlign.center,),
+                        Text(
+                          "WAFFLE",
+                          style: TextStyle(
+                              fontFamily: "Georgia",
+                              fontSize: 15,
+                              color: Colors.white,
+                              fontWeight: FontWeight.bold),
+                          textAlign: TextAlign.center,
+                        ),
                         Padding(
                           padding: const EdgeInsets.symmetric(vertical: 8.0),
                           child: ElevatedButton(
-                            style: ElevatedButton.styleFrom(backgroundColor: Colors.white,shadowColor: Colors.orange),
-                            onPressed: (){},
-                            child: Text(" 200 ₺",style: TextStyle(fontFamily: "Georgia",color: Colors.orangeAccent,fontWeight:FontWeight.bold ),),
+                            style: ElevatedButton.styleFrom(
+                                backgroundColor: Colors.white,
+                                shadowColor: Colors.orange),
+                            onPressed: () {},
+                            child: Text(
+                              " 300 ₺",
+                              style: TextStyle(
+                                  fontFamily: "Georgia",
+                                  color: Colors.orangeAccent,
+                                  fontWeight: FontWeight.bold),
+                            ),
                           ),
                         )
                       ],
@@ -164,23 +255,50 @@ class DesertsMenu extends StatelessWidget {
                       children: [
                         Padding(
                           padding: const EdgeInsets.symmetric(horizontal: 28.0),
-                          child: SizedBox(width: 150,child: Image.asset("images/dondurma.png")),
+                          child: SizedBox(
+                              width: 150,
+                              child: Image.asset("images/dondurma.png")),
                         ),
                         Row(
                           children: [
-                            Text("DONDURMA",style: TextStyle(fontFamily: "Georgia",fontSize: 15,color: Colors.white, fontWeight: FontWeight.bold),textAlign: TextAlign.center,),
+                            Text(
+                              "DONDURMA",
+                              style: TextStyle(
+                                  fontFamily: "Georgia",
+                                  fontSize: 15,
+                                  color: Colors.white,
+                                  fontWeight: FontWeight.bold),
+                              textAlign: TextAlign.center,
+                            ),
                             Padding(
-                              padding: const EdgeInsets.symmetric(horizontal: 8.0),
-                              child: Text("3 TOP",style: TextStyle(fontFamily: "Georgia",fontSize: 10,color: Colors.black, fontWeight: FontWeight.bold),textAlign: TextAlign.center,),
+                              padding:
+                                  const EdgeInsets.symmetric(horizontal: 8.0),
+                              child: Text(
+                                "3 TOP",
+                                style: TextStyle(
+                                    fontFamily: "Georgia",
+                                    fontSize: 10,
+                                    color: Colors.black,
+                                    fontWeight: FontWeight.bold),
+                                textAlign: TextAlign.center,
+                              ),
                             ),
                           ],
                         ),
                         Padding(
                           padding: const EdgeInsets.symmetric(vertical: 8.0),
                           child: ElevatedButton(
-                            style: ElevatedButton.styleFrom(backgroundColor: Colors.white,shadowColor: Colors.orange),
-                            onPressed: (){},
-                            child: Text(" 100 ₺",style: TextStyle(fontFamily: "Georgia",color: Colors.orangeAccent,fontWeight:FontWeight.bold ),),
+                            style: ElevatedButton.styleFrom(
+                                backgroundColor: Colors.white,
+                                shadowColor: Colors.orange),
+                            onPressed: () {},
+                            child: Text(
+                              " 100 ₺",
+                              style: TextStyle(
+                                  fontFamily: "Georgia",
+                                  color: Colors.orangeAccent,
+                                  fontWeight: FontWeight.bold),
+                            ),
                           ),
                         )
                       ],
@@ -191,7 +309,6 @@ class DesertsMenu extends StatelessWidget {
             ),
           ),
         ],
-
       ),
     );
   }
